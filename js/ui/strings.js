@@ -1,0 +1,4 @@
+export const nav=[['overview','◈','Visão geral'],['build','▦','Construção'],['flights','✈','Voos'],['airlines','◎','Companhias'],['operations','⌁','Operações'],['passengers','♙','Passageiros'],['staff','♟','Funcionários'],['finance','↗','Finanças'],['commercial','▤','Comercial'],['infrastructure','▥','Infraestrutura'],['stats','▥','Estatísticas'],['research','◇','Pesquisa'],['contracts','▧','Contratos'],['settings','⚙','Configurações']];
+export const staffNames={service:'Atendimento',security:'Segurança',clean:'Limpeza',baggage:'Bagagens',maintenance:'Manutenção',operations:'Operações',fire:'Bombeiros',admin:'Administração'};
+export const equipmentNames={stairs:'Escadas',bus:'Ônibus',baggage:'Carros de bagagem',fuel:'Combustível',gpu:'GPU',clean:'Limpeza',catering:'Catering',pushback:'Pushback'};
+export const goals=['Equilibrada','Hub doméstico','Internacional','Turístico','Carga','Premium','Baixo custo'];

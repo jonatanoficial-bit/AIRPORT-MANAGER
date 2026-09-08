@@ -1,0 +1,262 @@
+{
+  "difficulty": {
+    "Fácil": {
+      "revenue": 1.2,
+      "cost": 0.9,
+      "penalty": 0.8
+    },
+    "Normal": {
+      "revenue": 1,
+      "cost": 1,
+      "penalty": 1
+    },
+    "Difícil": {
+      "revenue": 0.95,
+      "cost": 1.1,
+      "penalty": 1.2
+    },
+    "Simulação": {
+      "revenue": 1,
+      "cost": 1.15,
+      "penalty": 1.4
+    }
+  },
+  "initialCash": 700000,
+  "landingFee": 1400,
+  "gateFee": 600,
+  "serviceFee": 500,
+  "passengerFee": 32,
+  "cargoFee": 230,
+  "cancellation": 4500,
+  "salary": 180,
+  "utility": 600,
+  "buildingUpkeep": 130,
+  "vehicleUpkeep": 60,
+  "degrade": 0.22,
+  "repairCost": 450,
+  "loanRate": 0.015,
+  "loanTerm": 30,
+  "loanLimit": 2000000,
+  "landPrice": 100000,
+  "maxActive": 160,
+  "scheduleLead": 90,
+  "maxWait": 300,
+  "lateTolerance": 15,
+  "runwaySeparation": 5,
+  "taxiDuration": 7,
+  "eventChance": 0.18,
+  "weatherDuration": 180,
+  "maturityWeights": [
+    0.2,
+    0.2,
+    0.15,
+    0.15,
+    0.1,
+    0.1,
+    0.1
+  ],
+  "weather": [
+    {
+      "name": "Céu limpo",
+      "factor": 1,
+      "ramp": 1
+    },
+    {
+      "name": "Chuva",
+      "factor": 1.35,
+      "ramp": 0.9
+    },
+    {
+      "name": "Chuva forte",
+      "factor": 1.8,
+      "ramp": 0.7
+    },
+    {
+      "name": "Vento",
+      "factor": 1.5,
+      "ramp": 0.8
+    },
+    {
+      "name": "Tempestade",
+      "factor": 3,
+      "ramp": 0
+    },
+    {
+      "name": "Neblina",
+      "factor": 2.2,
+      "ramp": 1
+    },
+    {
+      "name": "Calor extremo",
+      "factor": 1.15,
+      "ramp": 0.85
+    }
+  ],
+  "services": [
+    {
+      "id": "disembark",
+      "name": "Desembarque",
+      "duration": 5,
+      "depends": [],
+      "staff": "operations",
+      "equipment": "stairs"
+    },
+    {
+      "id": "unload",
+      "name": "Descarregar bagagens",
+      "duration": 7,
+      "depends": [
+        "disembark"
+      ],
+      "staff": "baggage",
+      "equipment": "baggage"
+    },
+    {
+      "id": "clean",
+      "name": "Limpeza",
+      "duration": 7,
+      "depends": [
+        "disembark"
+      ],
+      "staff": "clean",
+      "equipment": "clean"
+    },
+    {
+      "id": "fuel",
+      "name": "Abastecimento",
+      "duration": 10,
+      "depends": [
+        "disembark"
+      ],
+      "staff": "operations",
+      "equipment": "fuel"
+    },
+    {
+      "id": "catering",
+      "name": "Catering",
+      "duration": 7,
+      "depends": [
+        "disembark"
+      ],
+      "staff": "operations",
+      "equipment": "catering"
+    },
+    {
+      "id": "inspect",
+      "name": "Inspeção",
+      "duration": 6,
+      "depends": [
+        "disembark"
+      ],
+      "staff": "maintenance",
+      "equipment": "gpu"
+    },
+    {
+      "id": "load",
+      "name": "Carregar bagagens",
+      "duration": 8,
+      "depends": [
+        "unload"
+      ],
+      "staff": "baggage",
+      "equipment": "baggage"
+    },
+    {
+      "id": "board",
+      "name": "Embarque",
+      "duration": 8,
+      "depends": [
+        "clean",
+        "fuel",
+        "catering",
+        "inspect",
+        "load"
+      ],
+      "staff": "service",
+      "equipment": "bus"
+    }
+  ],
+  "levelRequirements": [
+    {
+      "level": 2,
+      "flights": 3,
+      "rep": 40,
+      "terminal": 200,
+      "runway": 1800,
+      "gates": 2,
+      "otp": 75
+    },
+    {
+      "level": 3,
+      "flights": 12,
+      "rep": 55,
+      "terminal": 450,
+      "runway": 2200,
+      "gates": 3,
+      "otp": 75
+    },
+    {
+      "level": 4,
+      "flights": 25,
+      "rep": 58,
+      "terminal": 700,
+      "runway": 2300,
+      "gates": 4,
+      "otp": 75
+    },
+    {
+      "level": 5,
+      "flights": 45,
+      "rep": 65,
+      "terminal": 950,
+      "runway": 2600,
+      "gates": 5,
+      "otp": 78
+    },
+    {
+      "level": 6,
+      "flights": 75,
+      "rep": 70,
+      "terminal": 1200,
+      "runway": 2800,
+      "gates": 6,
+      "otp": 80
+    },
+    {
+      "level": 7,
+      "flights": 110,
+      "rep": 74,
+      "terminal": 1450,
+      "runway": 3000,
+      "gates": 8,
+      "otp": 80
+    },
+    {
+      "level": 8,
+      "flights": 160,
+      "rep": 80,
+      "terminal": 1700,
+      "runway": 3400,
+      "gates": 10,
+      "otp": 82
+    },
+    {
+      "level": 9,
+      "flights": 230,
+      "rep": 85,
+      "terminal": 2200,
+      "runway": 3400,
+      "gates": 12,
+      "otp": 85
+    },
+    {
+      "level": 10,
+      "flights": 350,
+      "rep": 90,
+      "terminal": 2700,
+      "runway": 3600,
+      "gates": 16,
+      "otp": 90
+    }
+  ]
+}

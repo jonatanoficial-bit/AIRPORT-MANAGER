@@ -1,0 +1,105 @@
+[
+  {
+    "id": "aurora",
+    "name": "Aurora Regional",
+    "profile": "Regional",
+    "level": 1,
+    "fleet": [
+      "atr"
+    ],
+    "color": "#4ac9cf",
+    "requirements": {
+      "reputation": 25
+    },
+    "pricingSensitivity": 1
+  },
+  {
+    "id": "brisa",
+    "name": "Brisa Linhas Aéreas",
+    "profile": "Baixo custo",
+    "level": 2,
+    "fleet": [
+      "ej",
+      "a220"
+    ],
+    "color": "#69bdf4",
+    "requirements": {
+      "reputation": 40
+    },
+    "pricingSensitivity": 1.5
+  },
+  {
+    "id": "vertice",
+    "name": "Vértice Air",
+    "profile": "Doméstica",
+    "level": 3,
+    "fleet": [
+      "a320",
+      "b737"
+    ],
+    "color": "#f2b94e",
+    "requirements": {
+      "reputation": 50
+    },
+    "pricingSensitivity": 1
+  },
+  {
+    "id": "atlantica",
+    "name": "Atlântica Airways",
+    "profile": "Internacional",
+    "level": 5,
+    "fleet": [
+      "a320",
+      "a330"
+    ],
+    "color": "#9eacf0",
+    "requirements": {
+      "reputation": 65
+    },
+    "pricingSensitivity": 0.8
+  },
+  {
+    "id": "meridian",
+    "name": "Meridian Global",
+    "profile": "Premium",
+    "level": 6,
+    "fleet": [
+      "b787",
+      "b777"
+    ],
+    "color": "#d7bb76",
+    "requirements": {
+      "reputation": 72
+    },
+    "pricingSensitivity": 0.6
+  },
+  {
+    "id": "cargo",
+    "name": "Horizonte Cargo",
+    "profile": "Carga",
+    "level": 5,
+    "fleet": [
+      "cargo"
+    ],
+    "color": "#8fca7c",
+    "requirements": {
+      "reputation": 60
+    },
+    "pricingSensitivity": 1
+  },
+  {
+    "id": "pampa",
+    "name": "Pampa Express",
+    "profile": "Regional",
+    "level": 1,
+    "fleet": [
+      "atr",
+      "ej"
+    ],
+    "color": "#f28c79",
+    "requirements": {
+      "reputation": 30
+    },
+    "pricingSensitivity": 1.2
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "id": "free",
+    "name": "Carreira livre",
+    "seed": 2026,
+    "cashMultiplier": 1,
+    "objective": "Construa um aeroporto lendário."
+  },
+  {
+    "id": "debt",
+    "name": "Plano de recuperação",
+    "seed": 8471,
+    "cashMultiplier": 0.65,
+    "debt": 400000,
+    "objective": "Quite a dívida e mantenha caixa positivo."
+  },
+  {
+    "id": "tourism",
+    "name": "Temporada turística",
+    "seed": 9137,
+    "cashMultiplier": 1,
+    "demandMultiplier": 1.5,
+    "objective": "Atenda 2.000 passageiros com satisfação de 80."
+  },
+  {
+    "id": "storm",
+    "name": "Frente de tempestades",
+    "seed": 5821,
+    "cashMultiplier": 1.2,
+    "storm": true,
+    "objective": "Conclua 30 voos apesar do clima."
+  }
+]

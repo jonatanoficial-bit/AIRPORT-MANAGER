@@ -1,0 +1,92 @@
+[
+  {
+    "id": "power",
+    "name": "Falha de energia",
+    "duration": 90,
+    "modifier": "ramp",
+    "choices": [
+      {
+        "label": "Mobilizar resposta",
+        "cost": 10000,
+        "factor": 0.25
+      },
+      {
+        "label": "Administrar com recursos atuais",
+        "cost": 0,
+        "factor": 1
+      }
+    ]
+  },
+  {
+    "id": "bags",
+    "name": "Falha na triagem",
+    "duration": 120,
+    "modifier": "baggage",
+    "choices": [
+      {
+        "label": "Mobilizar resposta",
+        "cost": 8000,
+        "factor": 0.25
+      },
+      {
+        "label": "Administrar com recursos atuais",
+        "cost": 0,
+        "factor": 1
+      }
+    ]
+  },
+  {
+    "id": "holiday",
+    "name": "Pico de feriado",
+    "duration": 240,
+    "modifier": "demand",
+    "choices": [
+      {
+        "label": "Mobilizar resposta",
+        "cost": 12000,
+        "factor": 0.25
+      },
+      {
+        "label": "Administrar com recursos atuais",
+        "cost": 0,
+        "factor": 1
+      }
+    ]
+  },
+  {
+    "id": "medical",
+    "name": "Atendimento médico",
+    "duration": 45,
+    "modifier": "ramp",
+    "choices": [
+      {
+        "label": "Mobilizar resposta",
+        "cost": 5000,
+        "factor": 0.25
+      },
+      {
+        "label": "Administrar com recursos atuais",
+        "cost": 0,
+        "factor": 1
+      }
+    ]
+  },
+  {
+    "id": "staff",
+    "name": "Ausências na equipe",
+    "duration": 180,
+    "modifier": "staff",
+    "choices": [
+      {
+        "label": "Mobilizar resposta",
+        "cost": 9000,
+        "factor": 0.25
+      },
+      {
+        "label": "Administrar com recursos atuais",
+        "cost": 0,
+        "factor": 1
+      }
+    ]
+  }
+]

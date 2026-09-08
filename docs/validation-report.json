@@ -1,0 +1,21 @@
+{
+  "build": "0.1.0",
+  "date": "2026-09-08",
+  "tests": 13,
+  "passed": 13,
+  "failed": 0,
+  "checks": [
+    "30 dias simulados",
+    "save determinístico",
+    "gates/pistas exclusivos",
+    "receita única",
+    "obra/pausa",
+    "clima/equipamento",
+    "sintaxe JS",
+    "assets existentes",
+    "HTTP 200 e 404",
+    "build estático"
+  ],
+  "browser_visual_qa": "pendente",
+  "full_bible_coverage": false
+}

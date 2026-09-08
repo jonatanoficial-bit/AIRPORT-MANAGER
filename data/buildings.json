@@ -1,0 +1,377 @@
+[
+  {
+    "id": "gate",
+    "name": "Posição remota",
+    "zone": "apron",
+    "cost": 75000,
+    "duration": 90,
+    "level": 1,
+    "effect": "gates",
+    "amount": 1,
+    "asset": "bg_apron",
+    "footprint": [
+      2,
+      1
+    ]
+  },
+  {
+    "id": "bridge",
+    "name": "Gate com ponte",
+    "zone": "apron",
+    "cost": 180000,
+    "duration": 180,
+    "level": 3,
+    "effect": "gates",
+    "amount": 2,
+    "asset": "bg_gate",
+    "footprint": [
+      2,
+      1
+    ]
+  },
+  {
+    "id": "largegate",
+    "name": "Gate wide-body",
+    "zone": "apron",
+    "cost": 390000,
+    "duration": 240,
+    "level": 5,
+    "effect": "gates",
+    "amount": 4,
+    "asset": "bg_gate",
+    "footprint": [
+      2,
+      1
+    ]
+  },
+  {
+    "id": "terminal",
+    "name": "Terminal",
+    "zone": "terminal",
+    "cost": 140000,
+    "duration": 180,
+    "level": 1,
+    "effect": "terminal",
+    "amount": 250,
+    "asset": "bg_terminal",
+    "footprint": [
+      2,
+      1
+    ]
+  },
+  {
+    "id": "checkin",
+    "name": "Check-in",
+    "zone": "terminal",
+    "cost": 45000,
+    "duration": 60,
+    "level": 1,
+    "effect": "checkin",
+    "amount": 120,
+    "asset": "bg_checkin",
+    "footprint": [
+      2,
+      1
+    ]
+  },
+  {
+    "id": "security",
+    "name": "Segurança",
+    "zone": "terminal",
+    "cost": 55000,
+    "duration": 90,
+    "level": 1,
+    "effect": "security",
+    "amount": 100,
+    "asset": "bg_security",
+    "footprint": [
+      2,
+      1
+    ]
+  },
+  {
+    "id": "baggage",
+    "name": "Bagagens",
+    "zone": "terminal",
+    "cost": 60000,
+    "duration": 90,
+    "level": 1,
+    "effect": "baggage",
+    "amount": 130,
+    "asset": "bg_baggage",
+    "footprint": [
+      2,
+      1
+    ]
+  },
+  {
+    "id": "immigration",
+    "name": "Imigração",
+    "zone": "terminal",
+    "cost": 120000,
+    "duration": 180,
+    "level": 4,
+    "effect": "immigration",
+    "amount": 100,
+    "asset": "bg_security",
+    "footprint": [
+      2,
+      1
+    ]
+  },
+  {
+    "id": "customs",
+    "name": "Alfândega",
+    "zone": "terminal",
+    "cost": 100000,
+    "duration": 180,
+    "level": 4,
+    "effect": "customs",
+    "amount": 100,
+    "asset": "bg_cargo",
+    "footprint": [
+      2,
+      1
+    ]
+  },
+  {
+    "id": "lounge",
+    "name": "Sala VIP",
+    "zone": "terminal",
+    "cost": 110000,
+    "duration": 120,
+    "level": 3,
+    "effect": "lounge",
+    "amount": 80,
+    "asset": "bg_lounge",
+    "footprint": [
+      2,
+      1
+    ]
+  },
+  {
+    "id": "toilet",
+    "name": "Sanitários",
+    "zone": "terminal",
+    "cost": 25000,
+    "duration": 45,
+    "level": 1,
+    "effect": "comfort",
+    "amount": 10,
+    "asset": "bg_terminal",
+    "footprint": [
+      2,
+      1
+    ]
+  },
+  {
+    "id": "shop",
+    "name": "Lojas e alimentação",
+    "zone": "terminal",
+    "cost": 65000,
+    "duration": 90,
+    "level": 2,
+    "effect": "shop",
+    "amount": 1,
+    "asset": "bg_lounge",
+    "footprint": [
+      2,
+      1
+    ]
+  },
+  {
+    "id": "parking",
+    "name": "Estacionamento",
+    "zone": "landside",
+    "cost": 45000,
+    "duration": 90,
+    "level": 1,
+    "effect": "parking",
+    "amount": 150,
+    "asset": "bg_terminal",
+    "footprint": [
+      2,
+      1
+    ]
+  },
+  {
+    "id": "access",
+    "name": "Acesso e transporte",
+    "zone": "landside",
+    "cost": 50000,
+    "duration": 90,
+    "level": 1,
+    "effect": "access",
+    "amount": 150,
+    "asset": "bg_terminal",
+    "footprint": [
+      2,
+      1
+    ]
+  },
+  {
+    "id": "hangar",
+    "name": "Hangar de manutenção",
+    "zone": "service",
+    "cost": 150000,
+    "duration": 180,
+    "level": 3,
+    "effect": "hangar",
+    "amount": 1,
+    "asset": "bg_maintenance",
+    "footprint": [
+      2,
+      1
+    ]
+  },
+  {
+    "id": "fire",
+    "name": "Bombeiros",
+    "zone": "service",
+    "cost": 90000,
+    "duration": 120,
+    "level": 2,
+    "effect": "fire",
+    "amount": 1,
+    "asset": "bg_fire",
+    "footprint": [
+      2,
+      1
+    ]
+  },
+  {
+    "id": "fuel",
+    "name": "Base de combustível",
+    "zone": "service",
+    "cost": 80000,
+    "duration": 120,
+    "level": 2,
+    "effect": "fuel",
+    "amount": 1,
+    "asset": "vehicle_fuel",
+    "footprint": [
+      2,
+      1
+    ]
+  },
+  {
+    "id": "catering",
+    "name": "Central de catering",
+    "zone": "service",
+    "cost": 75000,
+    "duration": 120,
+    "level": 3,
+    "effect": "catering",
+    "amount": 1,
+    "asset": "vehicle_catering",
+    "footprint": [
+      2,
+      1
+    ]
+  },
+  {
+    "id": "cargo",
+    "name": "Terminal de carga",
+    "zone": "service",
+    "cost": 220000,
+    "duration": 240,
+    "level": 4,
+    "effect": "cargo",
+    "amount": 30,
+    "asset": "bg_cargo",
+    "footprint": [
+      2,
+      1
+    ]
+  },
+  {
+    "id": "warehouse",
+    "name": "Armazém",
+    "zone": "service",
+    "cost": 100000,
+    "duration": 120,
+    "level": 4,
+    "effect": "cargo",
+    "amount": 20,
+    "asset": "bg_cargo",
+    "footprint": [
+      2,
+      1
+    ]
+  },
+  {
+    "id": "admin",
+    "name": "Administração",
+    "zone": "landside",
+    "cost": 60000,
+    "duration": 90,
+    "level": 2,
+    "effect": "admin",
+    "amount": 1,
+    "asset": "bg_operations",
+    "footprint": [
+      2,
+      1
+    ]
+  },
+  {
+    "id": "control",
+    "name": "Centro operacional",
+    "zone": "service",
+    "cost": 180000,
+    "duration": 180,
+    "level": 4,
+    "effect": "control",
+    "amount": 1,
+    "asset": "bg_operations",
+    "footprint": [
+      2,
+      1
+    ]
+  },
+  {
+    "id": "runway",
+    "name": "Pista adicional",
+    "zone": "runway",
+    "cost": 650000,
+    "duration": 360,
+    "level": 7,
+    "effect": "runways",
+    "amount": 1,
+    "asset": "bg_runway",
+    "footprint": [
+      2,
+      1
+    ]
+  },
+  {
+    "id": "taxiway",
+    "name": "Taxiway / saída rápida",
+    "zone": "service",
+    "cost": 110000,
+    "duration": 150,
+    "level": 2,
+    "effect": "taxiway",
+    "amount": 1,
+    "asset": "bg_apron",
+    "footprint": [
+      2,
+      1
+    ]
+  },
+  {
+    "id": "solar",
+    "name": "Energia solar",
+    "zone": "landside",
+    "cost": 130000,
+    "duration": 180,
+    "level": 3,
+    "effect": "solar",
+    "amount": 1,
+    "asset": "bg_terminal",
+    "footprint": [
+      2,
+      1
+    ]
+  }
+]

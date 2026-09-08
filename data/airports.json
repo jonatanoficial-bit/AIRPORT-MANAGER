@@ -1,0 +1,1955 @@
+[
+  {
+    "id": "base:rbr",
+    "name": "Rio Branco",
+    "codes": {
+      "iata": "RBR"
+    },
+    "country": "Brasil",
+    "uf": "AC",
+    "category": "Regional",
+    "demand": 1.1,
+    "cargo": 0.8,
+    "tourism": 1,
+    "weather": "tropical",
+    "landCost": 1.0,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": false
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "AC"
+    },
+    "profileNote": "Configuração reduzida de gameplay; não reproduz a infraestrutura real."
+  },
+  {
+    "id": "base:mcz",
+    "name": "Maceió",
+    "codes": {
+      "iata": "MCZ"
+    },
+    "country": "Brasil",
+    "uf": "AL",
+    "category": "Regional",
+    "demand": 1.23,
+    "cargo": 1.0,
+    "tourism": 1.3,
+    "weather": "temperate",
+    "landCost": 1.15,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": false
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "AL"
+    },
+    "profileNote": "Configuração reduzida de gameplay; não reproduz a infraestrutura real."
+  },
+  {
+    "id": "base:mcp",
+    "name": "Macapá",
+    "codes": {
+      "iata": "MCP"
+    },
+    "country": "Brasil",
+    "uf": "AP",
+    "category": "Regional",
+    "demand": 1.36,
+    "cargo": 1.2000000000000002,
+    "tourism": 1,
+    "weather": "tropical",
+    "landCost": 1.3,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": false
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "AP"
+    },
+    "profileNote": "Configuração reduzida de gameplay; não reproduz a infraestrutura real."
+  },
+  {
+    "id": "base:mao",
+    "name": "Manaus",
+    "codes": {
+      "iata": "MAO"
+    },
+    "country": "Brasil",
+    "uf": "AM",
+    "category": "Regional",
+    "demand": 1.4900000000000002,
+    "cargo": 1.4000000000000001,
+    "tourism": 1,
+    "weather": "tropical",
+    "landCost": 1.0,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": false
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "AM"
+    },
+    "profileNote": "Configuração reduzida de gameplay; não reproduz a infraestrutura real."
+  },
+  {
+    "id": "base:ssa",
+    "name": "Salvador",
+    "codes": {
+      "iata": "SSA"
+    },
+    "country": "Brasil",
+    "uf": "BA",
+    "category": "Regional",
+    "demand": 1.62,
+    "cargo": 0.8,
+    "tourism": 1.3,
+    "weather": "temperate",
+    "landCost": 1.15,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": false
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "BA"
+    },
+    "profileNote": "Configuração reduzida de gameplay; não reproduz a infraestrutura real."
+  },
+  {
+    "id": "base:for",
+    "name": "Fortaleza",
+    "codes": {
+      "iata": "FOR"
+    },
+    "country": "Brasil",
+    "uf": "CE",
+    "category": "Regional",
+    "demand": 1.1,
+    "cargo": 1.0,
+    "tourism": 1.3,
+    "weather": "temperate",
+    "landCost": 1.3,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": false
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "CE"
+    },
+    "profileNote": "Configuração reduzida de gameplay; não reproduz a infraestrutura real."
+  },
+  {
+    "id": "base:bsb",
+    "name": "Brasília",
+    "codes": {
+      "iata": "BSB"
+    },
+    "country": "Brasil",
+    "uf": "DF",
+    "category": "Hub",
+    "demand": 1.23,
+    "cargo": 1.2000000000000002,
+    "tourism": 1,
+    "weather": "temperate",
+    "landCost": 1.0,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": false
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "DF"
+    },
+    "profileNote": "Configuração reduzida de gameplay; não reproduz a infraestrutura real."
+  },
+  {
+    "id": "base:vix",
+    "name": "Vitória",
+    "codes": {
+      "iata": "VIX"
+    },
+    "country": "Brasil",
+    "uf": "ES",
+    "category": "Regional",
+    "demand": 1.36,
+    "cargo": 1.4000000000000001,
+    "tourism": 1,
+    "weather": "temperate",
+    "landCost": 1.15,
+    "maxRunways": 2,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": true
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "ES"
+    },
+    "profileNote": "Configuração reduzida de gameplay; não reproduz a infraestrutura real."
+  },
+  {
+    "id": "base:gyn",
+    "name": "Goiânia",
+    "codes": {
+      "iata": "GYN"
+    },
+    "country": "Brasil",
+    "uf": "GO",
+    "category": "Regional",
+    "demand": 1.4900000000000002,
+    "cargo": 0.8,
+    "tourism": 1,
+    "weather": "temperate",
+    "landCost": 1.3,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": false
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "GO"
+    },
+    "profileNote": "Configuração reduzida de gameplay; não reproduz a infraestrutura real."
+  },
+  {
+    "id": "base:slz",
+    "name": "São Luís",
+    "codes": {
+      "iata": "SLZ"
+    },
+    "country": "Brasil",
+    "uf": "MA",
+    "category": "Regional",
+    "demand": 1.62,
+    "cargo": 1.0,
+    "tourism": 1,
+    "weather": "temperate",
+    "landCost": 1.0,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": false
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "MA"
+    },
+    "profileNote": "Configuração reduzida de gameplay; não reproduz a infraestrutura real."
+  },
+  {
+    "id": "base:cgb",
+    "name": "Cuiabá",
+    "codes": {
+      "iata": "CGB"
+    },
+    "country": "Brasil",
+    "uf": "MT",
+    "category": "Regional",
+    "demand": 1.1,
+    "cargo": 1.2000000000000002,
+    "tourism": 1,
+    "weather": "temperate",
+    "landCost": 1.15,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": false
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "MT"
+    },
+    "profileNote": "Configuração reduzida de gameplay; não reproduz a infraestrutura real."
+  },
+  {
+    "id": "base:cgr",
+    "name": "Campo Grande",
+    "codes": {
+      "iata": "CGR"
+    },
+    "country": "Brasil",
+    "uf": "MS",
+    "category": "Regional",
+    "demand": 1.23,
+    "cargo": 1.4000000000000001,
+    "tourism": 1,
+    "weather": "temperate",
+    "landCost": 1.3,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": false
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "MS"
+    },
+    "profileNote": "Configuração reduzida de gameplay; não reproduz a infraestrutura real."
+  },
+  {
+    "id": "base:cnf",
+    "name": "Confins",
+    "codes": {
+      "iata": "CNF"
+    },
+    "country": "Brasil",
+    "uf": "MG",
+    "category": "Regional",
+    "demand": 1.36,
+    "cargo": 0.8,
+    "tourism": 1,
+    "weather": "temperate",
+    "landCost": 1.0,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": false
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "MG"
+    },
+    "profileNote": "Configuração reduzida de gameplay; não reproduz a infraestrutura real."
+  },
+  {
+    "id": "base:bel",
+    "name": "Belém",
+    "codes": {
+      "iata": "BEL"
+    },
+    "country": "Brasil",
+    "uf": "PA",
+    "category": "Regional",
+    "demand": 1.4900000000000002,
+    "cargo": 1.0,
+    "tourism": 1,
+    "weather": "tropical",
+    "landCost": 1.15,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": false
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "PA"
+    },
+    "profileNote": "Configuração reduzida de gameplay; não reproduz a infraestrutura real."
+  },
+  {
+    "id": "base:jpa",
+    "name": "João Pessoa",
+    "codes": {
+      "iata": "JPA"
+    },
+    "country": "Brasil",
+    "uf": "PB",
+    "category": "Regional",
+    "demand": 1.62,
+    "cargo": 1.2000000000000002,
+    "tourism": 1,
+    "weather": "temperate",
+    "landCost": 1.3,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": false
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "PB"
+    },
+    "profileNote": "Configuração reduzida de gameplay; não reproduz a infraestrutura real."
+  },
+  {
+    "id": "base:cwb",
+    "name": "Curitiba",
+    "codes": {
+      "iata": "CWB"
+    },
+    "country": "Brasil",
+    "uf": "PR",
+    "category": "Regional",
+    "demand": 1.1,
+    "cargo": 1.4000000000000001,
+    "tourism": 1,
+    "weather": "temperate",
+    "landCost": 1.0,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": true
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "PR"
+    },
+    "profileNote": "Configuração reduzida de gameplay; não reproduz a infraestrutura real."
+  },
+  {
+    "id": "base:rec",
+    "name": "Recife",
+    "codes": {
+      "iata": "REC"
+    },
+    "country": "Brasil",
+    "uf": "PE",
+    "category": "Regional",
+    "demand": 1.23,
+    "cargo": 0.8,
+    "tourism": 1.3,
+    "weather": "temperate",
+    "landCost": 1.15,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": false
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "PE"
+    },
+    "profileNote": "Configuração reduzida de gameplay; não reproduz a infraestrutura real."
+  },
+  {
+    "id": "base:the",
+    "name": "Teresina",
+    "codes": {
+      "iata": "THE"
+    },
+    "country": "Brasil",
+    "uf": "PI",
+    "category": "Regional",
+    "demand": 1.36,
+    "cargo": 1.0,
+    "tourism": 1,
+    "weather": "temperate",
+    "landCost": 1.3,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": false
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "PI"
+    },
+    "profileNote": "Configuração reduzida de gameplay; não reproduz a infraestrutura real."
+  },
+  {
+    "id": "base:gig",
+    "name": "Rio de Janeiro",
+    "codes": {
+      "iata": "GIG"
+    },
+    "country": "Brasil",
+    "uf": "RJ",
+    "category": "Hub",
+    "demand": 1.4900000000000002,
+    "cargo": 1.2000000000000002,
+    "tourism": 1.3,
+    "weather": "temperate",
+    "landCost": 1.0,
+    "maxRunways": 2,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": false
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "RJ"
+    },
+    "profileNote": "Configuração reduzida de gameplay; não reproduz a infraestrutura real."
+  },
+  {
+    "id": "base:nat",
+    "name": "Natal",
+    "codes": {
+      "iata": "NAT"
+    },
+    "country": "Brasil",
+    "uf": "RN",
+    "category": "Regional",
+    "demand": 1.62,
+    "cargo": 1.4000000000000001,
+    "tourism": 1,
+    "weather": "temperate",
+    "landCost": 1.15,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": false
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "RN"
+    },
+    "profileNote": "Configuração reduzida de gameplay; não reproduz a infraestrutura real."
+  },
+  {
+    "id": "base:poa",
+    "name": "Porto Alegre",
+    "codes": {
+      "iata": "POA"
+    },
+    "country": "Brasil",
+    "uf": "RS",
+    "category": "Regional",
+    "demand": 1.1,
+    "cargo": 0.8,
+    "tourism": 1,
+    "weather": "temperate",
+    "landCost": 1.3,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": false
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "RS"
+    },
+    "profileNote": "Configuração reduzida de gameplay; não reproduz a infraestrutura real."
+  },
+  {
+    "id": "base:pvh",
+    "name": "Porto Velho",
+    "codes": {
+      "iata": "PVH"
+    },
+    "country": "Brasil",
+    "uf": "RO",
+    "category": "Regional",
+    "demand": 1.23,
+    "cargo": 1.0,
+    "tourism": 1,
+    "weather": "tropical",
+    "landCost": 1.0,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": false
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "RO"
+    },
+    "profileNote": "Configuração reduzida de gameplay; não reproduz a infraestrutura real."
+  },
+  {
+    "id": "base:bvb",
+    "name": "Boa Vista",
+    "codes": {
+      "iata": "BVB"
+    },
+    "country": "Brasil",
+    "uf": "RR",
+    "category": "Regional",
+    "demand": 1.36,
+    "cargo": 1.2000000000000002,
+    "tourism": 1,
+    "weather": "temperate",
+    "landCost": 1.15,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": false
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "RR"
+    },
+    "profileNote": "Configuração reduzida de gameplay; não reproduz a infraestrutura real."
+  },
+  {
+    "id": "base:fln",
+    "name": "Florianópolis",
+    "codes": {
+      "iata": "FLN"
+    },
+    "country": "Brasil",
+    "uf": "SC",
+    "category": "Regional",
+    "demand": 1.4900000000000002,
+    "cargo": 1.4000000000000001,
+    "tourism": 1.3,
+    "weather": "temperate",
+    "landCost": 1.3,
+    "maxRunways": 2,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": true
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "SC"
+    },
+    "profileNote": "Configuração reduzida de gameplay; não reproduz a infraestrutura real."
+  },
+  {
+    "id": "base:gru",
+    "name": "São Paulo",
+    "codes": {
+      "iata": "GRU"
+    },
+    "country": "Brasil",
+    "uf": "SP",
+    "category": "Hub",
+    "demand": 1.62,
+    "cargo": 0.8,
+    "tourism": 1,
+    "weather": "temperate",
+    "landCost": 1.0,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": false
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "SP"
+    },
+    "profileNote": "Configuração reduzida de gameplay; não reproduz a infraestrutura real."
+  },
+  {
+    "id": "base:aju",
+    "name": "Aracaju",
+    "codes": {
+      "iata": "AJU"
+    },
+    "country": "Brasil",
+    "uf": "SE",
+    "category": "Regional",
+    "demand": 1.1,
+    "cargo": 1.0,
+    "tourism": 1,
+    "weather": "temperate",
+    "landCost": 1.15,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": false
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "SE"
+    },
+    "profileNote": "Configuração reduzida de gameplay; não reproduz a infraestrutura real."
+  },
+  {
+    "id": "base:pmw",
+    "name": "Palmas",
+    "codes": {
+      "iata": "PMW"
+    },
+    "country": "Brasil",
+    "uf": "TO",
+    "category": "Regional",
+    "demand": 1.23,
+    "cargo": 1.2000000000000002,
+    "tourism": 1,
+    "weather": "temperate",
+    "landCost": 1.3,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": false
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "TO"
+    },
+    "profileNote": "Configuração reduzida de gameplay; não reproduz a infraestrutura real."
+  },
+  {
+    "id": "global:0",
+    "name": "Buenos Aires",
+    "codes": {
+      "iata": "INT1"
+    },
+    "country": "Mundo",
+    "uf": "Global",
+    "category": "Internacional",
+    "demand": 1.4,
+    "cargo": 1.3,
+    "tourism": 1.2,
+    "weather": "temperate",
+    "landCost": 1.4,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": true
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "global"
+    },
+    "profileNote": "Mapa conceitual; código interno fictício."
+  },
+  {
+    "id": "global:1",
+    "name": "Santiago",
+    "codes": {
+      "iata": "INT2"
+    },
+    "country": "Mundo",
+    "uf": "Global",
+    "category": "Internacional",
+    "demand": 1.5499999999999998,
+    "cargo": 1.3,
+    "tourism": 1.2,
+    "weather": "temperate",
+    "landCost": 1.4,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": false
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "global"
+    },
+    "profileNote": "Mapa conceitual; código interno fictício."
+  },
+  {
+    "id": "global:2",
+    "name": "Lima",
+    "codes": {
+      "iata": "INT3"
+    },
+    "country": "Mundo",
+    "uf": "Global",
+    "category": "Internacional",
+    "demand": 1.7,
+    "cargo": 1.3,
+    "tourism": 1.2,
+    "weather": "temperate",
+    "landCost": 1.4,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": false
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "global"
+    },
+    "profileNote": "Mapa conceitual; código interno fictício."
+  },
+  {
+    "id": "global:3",
+    "name": "Bogotá",
+    "codes": {
+      "iata": "INT4"
+    },
+    "country": "Mundo",
+    "uf": "Global",
+    "category": "Internacional",
+    "demand": 1.8499999999999999,
+    "cargo": 1.3,
+    "tourism": 1.2,
+    "weather": "temperate",
+    "landCost": 1.4,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": true
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "global"
+    },
+    "profileNote": "Mapa conceitual; código interno fictício."
+  },
+  {
+    "id": "global:4",
+    "name": "Atlanta",
+    "codes": {
+      "iata": "INT5"
+    },
+    "country": "Mundo",
+    "uf": "Global",
+    "category": "Internacional",
+    "demand": 2.0,
+    "cargo": 1.3,
+    "tourism": 1.2,
+    "weather": "temperate",
+    "landCost": 1.4,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": false
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "global"
+    },
+    "profileNote": "Mapa conceitual; código interno fictício."
+  },
+  {
+    "id": "global:5",
+    "name": "Miami",
+    "codes": {
+      "iata": "INT6"
+    },
+    "country": "Mundo",
+    "uf": "Global",
+    "category": "Internacional",
+    "demand": 1.4,
+    "cargo": 1.3,
+    "tourism": 1.2,
+    "weather": "temperate",
+    "landCost": 1.4,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": false
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "global"
+    },
+    "profileNote": "Mapa conceitual; código interno fictício."
+  },
+  {
+    "id": "global:6",
+    "name": "Nova York",
+    "codes": {
+      "iata": "INT7"
+    },
+    "country": "Mundo",
+    "uf": "Global",
+    "category": "Internacional",
+    "demand": 1.5499999999999998,
+    "cargo": 1.3,
+    "tourism": 1.2,
+    "weather": "temperate",
+    "landCost": 1.4,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": true
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "global"
+    },
+    "profileNote": "Mapa conceitual; código interno fictício."
+  },
+  {
+    "id": "global:7",
+    "name": "Los Angeles",
+    "codes": {
+      "iata": "INT8"
+    },
+    "country": "Mundo",
+    "uf": "Global",
+    "category": "Internacional",
+    "demand": 1.7,
+    "cargo": 1.3,
+    "tourism": 1.2,
+    "weather": "temperate",
+    "landCost": 1.4,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": false
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "global"
+    },
+    "profileNote": "Mapa conceitual; código interno fictício."
+  },
+  {
+    "id": "global:8",
+    "name": "Dallas",
+    "codes": {
+      "iata": "INT9"
+    },
+    "country": "Mundo",
+    "uf": "Global",
+    "category": "Internacional",
+    "demand": 1.8499999999999999,
+    "cargo": 1.3,
+    "tourism": 1.2,
+    "weather": "temperate",
+    "landCost": 1.4,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": false
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "global"
+    },
+    "profileNote": "Mapa conceitual; código interno fictício."
+  },
+  {
+    "id": "global:9",
+    "name": "Toronto",
+    "codes": {
+      "iata": "INT10"
+    },
+    "country": "Mundo",
+    "uf": "Global",
+    "category": "Internacional",
+    "demand": 2.0,
+    "cargo": 1.3,
+    "tourism": 1.2,
+    "weather": "temperate",
+    "landCost": 1.4,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": true
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "global"
+    },
+    "profileNote": "Mapa conceitual; código interno fictício."
+  },
+  {
+    "id": "global:10",
+    "name": "Cidade do México",
+    "codes": {
+      "iata": "INT11"
+    },
+    "country": "Mundo",
+    "uf": "Global",
+    "category": "Internacional",
+    "demand": 1.4,
+    "cargo": 1.3,
+    "tourism": 1.2,
+    "weather": "temperate",
+    "landCost": 1.4,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": false
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "global"
+    },
+    "profileNote": "Mapa conceitual; código interno fictício."
+  },
+  {
+    "id": "global:11",
+    "name": "Londres",
+    "codes": {
+      "iata": "INT12"
+    },
+    "country": "Mundo",
+    "uf": "Global",
+    "category": "Internacional",
+    "demand": 1.5499999999999998,
+    "cargo": 1.3,
+    "tourism": 1.2,
+    "weather": "temperate",
+    "landCost": 1.4,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": false
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "global"
+    },
+    "profileNote": "Mapa conceitual; código interno fictício."
+  },
+  {
+    "id": "global:12",
+    "name": "Paris",
+    "codes": {
+      "iata": "INT13"
+    },
+    "country": "Mundo",
+    "uf": "Global",
+    "category": "Internacional",
+    "demand": 1.7,
+    "cargo": 1.3,
+    "tourism": 1.2,
+    "weather": "temperate",
+    "landCost": 1.4,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": true
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "global"
+    },
+    "profileNote": "Mapa conceitual; código interno fictício."
+  },
+  {
+    "id": "global:13",
+    "name": "Frankfurt",
+    "codes": {
+      "iata": "INT14"
+    },
+    "country": "Mundo",
+    "uf": "Global",
+    "category": "Internacional",
+    "demand": 1.8499999999999999,
+    "cargo": 1.3,
+    "tourism": 1.2,
+    "weather": "temperate",
+    "landCost": 1.4,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": false
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "global"
+    },
+    "profileNote": "Mapa conceitual; código interno fictício."
+  },
+  {
+    "id": "global:14",
+    "name": "Madri",
+    "codes": {
+      "iata": "INT15"
+    },
+    "country": "Mundo",
+    "uf": "Global",
+    "category": "Internacional",
+    "demand": 2.0,
+    "cargo": 1.3,
+    "tourism": 1.2,
+    "weather": "temperate",
+    "landCost": 1.4,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": false
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "global"
+    },
+    "profileNote": "Mapa conceitual; código interno fictício."
+  },
+  {
+    "id": "global:15",
+    "name": "Amsterdã",
+    "codes": {
+      "iata": "INT16"
+    },
+    "country": "Mundo",
+    "uf": "Global",
+    "category": "Internacional",
+    "demand": 1.4,
+    "cargo": 1.3,
+    "tourism": 1.2,
+    "weather": "temperate",
+    "landCost": 1.4,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": true
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "global"
+    },
+    "profileNote": "Mapa conceitual; código interno fictício."
+  },
+  {
+    "id": "global:16",
+    "name": "Roma",
+    "codes": {
+      "iata": "INT17"
+    },
+    "country": "Mundo",
+    "uf": "Global",
+    "category": "Internacional",
+    "demand": 1.5499999999999998,
+    "cargo": 1.3,
+    "tourism": 1.2,
+    "weather": "temperate",
+    "landCost": 1.4,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": false
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "global"
+    },
+    "profileNote": "Mapa conceitual; código interno fictício."
+  },
+  {
+    "id": "global:17",
+    "name": "Lisboa",
+    "codes": {
+      "iata": "INT18"
+    },
+    "country": "Mundo",
+    "uf": "Global",
+    "category": "Internacional",
+    "demand": 1.7,
+    "cargo": 1.3,
+    "tourism": 1.2,
+    "weather": "temperate",
+    "landCost": 1.4,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": false
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "global"
+    },
+    "profileNote": "Mapa conceitual; código interno fictício."
+  },
+  {
+    "id": "global:18",
+    "name": "Istambul",
+    "codes": {
+      "iata": "INT19"
+    },
+    "country": "Mundo",
+    "uf": "Global",
+    "category": "Internacional",
+    "demand": 1.8499999999999999,
+    "cargo": 1.3,
+    "tourism": 1.2,
+    "weather": "temperate",
+    "landCost": 1.4,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": true
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "global"
+    },
+    "profileNote": "Mapa conceitual; código interno fictício."
+  },
+  {
+    "id": "global:19",
+    "name": "Dubai",
+    "codes": {
+      "iata": "INT20"
+    },
+    "country": "Mundo",
+    "uf": "Global",
+    "category": "Internacional",
+    "demand": 2.0,
+    "cargo": 1.3,
+    "tourism": 1.2,
+    "weather": "temperate",
+    "landCost": 1.4,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": false
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "global"
+    },
+    "profileNote": "Mapa conceitual; código interno fictício."
+  },
+  {
+    "id": "global:20",
+    "name": "Doha",
+    "codes": {
+      "iata": "INT21"
+    },
+    "country": "Mundo",
+    "uf": "Global",
+    "category": "Internacional",
+    "demand": 1.4,
+    "cargo": 1.3,
+    "tourism": 1.2,
+    "weather": "temperate",
+    "landCost": 1.4,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": false
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "global"
+    },
+    "profileNote": "Mapa conceitual; código interno fictício."
+  },
+  {
+    "id": "global:21",
+    "name": "Abu Dhabi",
+    "codes": {
+      "iata": "INT22"
+    },
+    "country": "Mundo",
+    "uf": "Global",
+    "category": "Internacional",
+    "demand": 1.5499999999999998,
+    "cargo": 1.3,
+    "tourism": 1.2,
+    "weather": "temperate",
+    "landCost": 1.4,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": true
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "global"
+    },
+    "profileNote": "Mapa conceitual; código interno fictício."
+  },
+  {
+    "id": "global:22",
+    "name": "Tóquio",
+    "codes": {
+      "iata": "INT23"
+    },
+    "country": "Mundo",
+    "uf": "Global",
+    "category": "Internacional",
+    "demand": 1.7,
+    "cargo": 1.3,
+    "tourism": 1.2,
+    "weather": "temperate",
+    "landCost": 1.4,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": false
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "global"
+    },
+    "profileNote": "Mapa conceitual; código interno fictício."
+  },
+  {
+    "id": "global:23",
+    "name": "Seul",
+    "codes": {
+      "iata": "INT24"
+    },
+    "country": "Mundo",
+    "uf": "Global",
+    "category": "Internacional",
+    "demand": 1.8499999999999999,
+    "cargo": 1.3,
+    "tourism": 1.2,
+    "weather": "temperate",
+    "landCost": 1.4,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": false
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "global"
+    },
+    "profileNote": "Mapa conceitual; código interno fictício."
+  },
+  {
+    "id": "global:24",
+    "name": "Singapura",
+    "codes": {
+      "iata": "INT25"
+    },
+    "country": "Mundo",
+    "uf": "Global",
+    "category": "Internacional",
+    "demand": 2.0,
+    "cargo": 1.3,
+    "tourism": 1.2,
+    "weather": "temperate",
+    "landCost": 1.4,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": true
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "global"
+    },
+    "profileNote": "Mapa conceitual; código interno fictício."
+  },
+  {
+    "id": "global:25",
+    "name": "Hong Kong",
+    "codes": {
+      "iata": "INT26"
+    },
+    "country": "Mundo",
+    "uf": "Global",
+    "category": "Internacional",
+    "demand": 1.4,
+    "cargo": 1.3,
+    "tourism": 1.2,
+    "weather": "temperate",
+    "landCost": 1.4,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": false
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "global"
+    },
+    "profileNote": "Mapa conceitual; código interno fictício."
+  },
+  {
+    "id": "global:26",
+    "name": "Pequim",
+    "codes": {
+      "iata": "INT27"
+    },
+    "country": "Mundo",
+    "uf": "Global",
+    "category": "Internacional",
+    "demand": 1.5499999999999998,
+    "cargo": 1.3,
+    "tourism": 1.2,
+    "weather": "temperate",
+    "landCost": 1.4,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": false
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "global"
+    },
+    "profileNote": "Mapa conceitual; código interno fictício."
+  },
+  {
+    "id": "global:27",
+    "name": "Xangai",
+    "codes": {
+      "iata": "INT28"
+    },
+    "country": "Mundo",
+    "uf": "Global",
+    "category": "Internacional",
+    "demand": 1.7,
+    "cargo": 1.3,
+    "tourism": 1.2,
+    "weather": "temperate",
+    "landCost": 1.4,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": true
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "global"
+    },
+    "profileNote": "Mapa conceitual; código interno fictício."
+  },
+  {
+    "id": "global:28",
+    "name": "Bangkok",
+    "codes": {
+      "iata": "INT29"
+    },
+    "country": "Mundo",
+    "uf": "Global",
+    "category": "Internacional",
+    "demand": 1.8499999999999999,
+    "cargo": 1.3,
+    "tourism": 1.2,
+    "weather": "temperate",
+    "landCost": 1.4,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": false
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "global"
+    },
+    "profileNote": "Mapa conceitual; código interno fictício."
+  },
+  {
+    "id": "global:29",
+    "name": "Delhi",
+    "codes": {
+      "iata": "INT30"
+    },
+    "country": "Mundo",
+    "uf": "Global",
+    "category": "Internacional",
+    "demand": 2.0,
+    "cargo": 1.3,
+    "tourism": 1.2,
+    "weather": "temperate",
+    "landCost": 1.4,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": false
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "global"
+    },
+    "profileNote": "Mapa conceitual; código interno fictício."
+  },
+  {
+    "id": "global:30",
+    "name": "Sydney",
+    "codes": {
+      "iata": "INT31"
+    },
+    "country": "Mundo",
+    "uf": "Global",
+    "category": "Internacional",
+    "demand": 1.4,
+    "cargo": 1.3,
+    "tourism": 1.2,
+    "weather": "temperate",
+    "landCost": 1.4,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": true
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "global"
+    },
+    "profileNote": "Mapa conceitual; código interno fictício."
+  },
+  {
+    "id": "global:31",
+    "name": "Melbourne",
+    "codes": {
+      "iata": "INT32"
+    },
+    "country": "Mundo",
+    "uf": "Global",
+    "category": "Internacional",
+    "demand": 1.5499999999999998,
+    "cargo": 1.3,
+    "tourism": 1.2,
+    "weather": "temperate",
+    "landCost": 1.4,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": false
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "global"
+    },
+    "profileNote": "Mapa conceitual; código interno fictício."
+  },
+  {
+    "id": "global:32",
+    "name": "Joanesburgo",
+    "codes": {
+      "iata": "INT33"
+    },
+    "country": "Mundo",
+    "uf": "Global",
+    "category": "Internacional",
+    "demand": 1.7,
+    "cargo": 1.3,
+    "tourism": 1.2,
+    "weather": "temperate",
+    "landCost": 1.4,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": false
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "global"
+    },
+    "profileNote": "Mapa conceitual; código interno fictício."
+  },
+  {
+    "id": "global:33",
+    "name": "Cidade do Cabo",
+    "codes": {
+      "iata": "INT34"
+    },
+    "country": "Mundo",
+    "uf": "Global",
+    "category": "Internacional",
+    "demand": 1.8499999999999999,
+    "cargo": 1.3,
+    "tourism": 1.2,
+    "weather": "temperate",
+    "landCost": 1.4,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": true
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "global"
+    },
+    "profileNote": "Mapa conceitual; código interno fictício."
+  },
+  {
+    "id": "global:34",
+    "name": "Cairo",
+    "codes": {
+      "iata": "INT35"
+    },
+    "country": "Mundo",
+    "uf": "Global",
+    "category": "Internacional",
+    "demand": 2.0,
+    "cargo": 1.3,
+    "tourism": 1.2,
+    "weather": "temperate",
+    "landCost": 1.4,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": false
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "global"
+    },
+    "profileNote": "Mapa conceitual; código interno fictício."
+  },
+  {
+    "id": "global:35",
+    "name": "Adis Abeba",
+    "codes": {
+      "iata": "INT36"
+    },
+    "country": "Mundo",
+    "uf": "Global",
+    "category": "Internacional",
+    "demand": 1.4,
+    "cargo": 1.3,
+    "tourism": 1.2,
+    "weather": "temperate",
+    "landCost": 1.4,
+    "maxRunways": 3,
+    "map": {
+      "width": 28,
+      "height": 20
+    },
+    "restrictions": {
+      "nightNoise": false
+    },
+    "startingState": {
+      "runway": 1800,
+      "gates": 2
+    },
+    "location": {
+      "region": "global"
+    },
+    "profileNote": "Mapa conceitual; código interno fictício."
+  }
+]

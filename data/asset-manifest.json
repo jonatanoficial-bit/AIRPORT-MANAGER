@@ -1,0 +1,314 @@
+{
+  "bg_menu": {
+    "path": "assets/bg_menu_v01.webp",
+    "category": "bg",
+    "version": 1,
+    "dimensions": [
+      1672,
+      941
+    ],
+    "fallback": "css",
+    "priority": "S",
+    "source": "1.png",
+    "rights": "Fornecido pelo usuário; autorização para distribuição não verificada."
+  },
+  "avatar_pilot": {
+    "path": "assets/avatar_pilot_v01.webp",
+    "category": "avatar",
+    "version": 1,
+    "dimensions": [
+      880,
+      1100
+    ],
+    "fallback": "css",
+    "priority": "A",
+    "source": "2.png",
+    "rights": "Fornecido pelo usuário; autorização para distribuição não verificada."
+  },
+  "avatar_service": {
+    "path": "assets/avatar_service_v01.webp",
+    "category": "avatar",
+    "version": 1,
+    "dimensions": [
+      880,
+      1100
+    ],
+    "fallback": "css",
+    "priority": "A",
+    "source": "3.png",
+    "rights": "Fornecido pelo usuário; autorização para distribuição não verificada."
+  },
+  "avatar_ground": {
+    "path": "assets/avatar_ground_v01.webp",
+    "category": "avatar",
+    "version": 1,
+    "dimensions": [
+      880,
+      1100
+    ],
+    "fallback": "css",
+    "priority": "A",
+    "source": "4.png",
+    "rights": "Fornecido pelo usuário; autorização para distribuição não verificada."
+  },
+  "avatar_control": {
+    "path": "assets/avatar_control_v01.webp",
+    "category": "avatar",
+    "version": 1,
+    "dimensions": [
+      880,
+      1100
+    ],
+    "fallback": "css",
+    "priority": "A",
+    "source": "5.png",
+    "rights": "Fornecido pelo usuário; autorização para distribuição não verificada."
+  },
+  "avatar_manager": {
+    "path": "assets/avatar_manager_v01.webp",
+    "category": "avatar",
+    "version": 1,
+    "dimensions": [
+      880,
+      1100
+    ],
+    "fallback": "css",
+    "priority": "A",
+    "source": "6.png",
+    "rights": "Fornecido pelo usuário; autorização para distribuição não verificada."
+  },
+  "bg_tower": {
+    "path": "assets/bg_tower_v01.webp",
+    "category": "bg",
+    "version": 1,
+    "dimensions": [
+      1100,
+      1100
+    ],
+    "fallback": "css",
+    "priority": "A",
+    "source": "7.png",
+    "rights": "Fornecido pelo usuário; autorização para distribuição não verificada."
+  },
+  "bg_terminal": {
+    "path": "assets/bg_terminal_v01.webp",
+    "category": "bg",
+    "version": 1,
+    "dimensions": [
+      1100,
+      1100
+    ],
+    "fallback": "css",
+    "priority": "A",
+    "source": "8.png",
+    "rights": "Fornecido pelo usuário; autorização para distribuição não verificada."
+  },
+  "bg_gate": {
+    "path": "assets/bg_gate_v01.webp",
+    "category": "bg",
+    "version": 1,
+    "dimensions": [
+      1100,
+      1100
+    ],
+    "fallback": "css",
+    "priority": "A",
+    "source": "9.png",
+    "rights": "Fornecido pelo usuário; autorização para distribuição não verificada."
+  },
+  "vehicle_pushback": {
+    "path": "assets/vehicle_pushback_v01.webp",
+    "category": "vehicle",
+    "version": 1,
+    "dimensions": [
+      1100,
+      1100
+    ],
+    "fallback": "css",
+    "priority": "A",
+    "source": "10.png",
+    "rights": "Fornecido pelo usuário; autorização para distribuição não verificada."
+  },
+  "vehicle_baggage": {
+    "path": "assets/vehicle_baggage_v01.webp",
+    "category": "vehicle",
+    "version": 1,
+    "dimensions": [
+      1100,
+      1100
+    ],
+    "fallback": "css",
+    "priority": "A",
+    "source": "11.png",
+    "rights": "Fornecido pelo usuário; autorização para distribuição não verificada."
+  },
+  "bg_apron": {
+    "path": "assets/bg_apron_v01.webp",
+    "category": "bg",
+    "version": 1,
+    "dimensions": [
+      1672,
+      941
+    ],
+    "fallback": "css",
+    "priority": "A",
+    "source": "13.png",
+    "rights": "Fornecido pelo usuário; autorização para distribuição não verificada."
+  },
+  "bg_baggage": {
+    "path": "assets/bg_baggage_v01.webp",
+    "category": "bg",
+    "version": 1,
+    "dimensions": [
+      1672,
+      941
+    ],
+    "fallback": "css",
+    "priority": "A",
+    "source": "14.png",
+    "rights": "Fornecido pelo usuário; autorização para distribuição não verificada."
+  },
+  "bg_operations": {
+    "path": "assets/bg_operations_v01.webp",
+    "category": "bg",
+    "version": 1,
+    "dimensions": [
+      1672,
+      941
+    ],
+    "fallback": "css",
+    "priority": "A",
+    "source": "15.png",
+    "rights": "Fornecido pelo usuário; autorização para distribuição não verificada."
+  },
+  "bg_fire": {
+    "path": "assets/bg_fire_v01.webp",
+    "category": "bg",
+    "version": 1,
+    "dimensions": [
+      1672,
+      941
+    ],
+    "fallback": "css",
+    "priority": "A",
+    "source": "16.png",
+    "rights": "Fornecido pelo usuário; autorização para distribuição não verificada."
+  },
+  "bg_lounge": {
+    "path": "assets/bg_lounge_v01.webp",
+    "category": "bg",
+    "version": 1,
+    "dimensions": [
+      1672,
+      941
+    ],
+    "fallback": "css",
+    "priority": "A",
+    "source": "17.png",
+    "rights": "Fornecido pelo usuário; autorização para distribuição não verificada."
+  },
+  "vehicle_catering": {
+    "path": "assets/vehicle_catering_v01.webp",
+    "category": "vehicle",
+    "version": 1,
+    "dimensions": [
+      880,
+      1100
+    ],
+    "fallback": "css",
+    "priority": "A",
+    "source": "18.png",
+    "rights": "Fornecido pelo usuário; autorização para distribuição não verificada."
+  },
+  "vehicle_fuel": {
+    "path": "assets/vehicle_fuel_v01.webp",
+    "category": "vehicle",
+    "version": 1,
+    "dimensions": [
+      880,
+      1100
+    ],
+    "fallback": "css",
+    "priority": "A",
+    "source": "19.png",
+    "rights": "Fornecido pelo usuário; autorização para distribuição não verificada."
+  },
+  "vehicle_bus": {
+    "path": "assets/vehicle_bus_v01.webp",
+    "category": "vehicle",
+    "version": 1,
+    "dimensions": [
+      880,
+      1100
+    ],
+    "fallback": "css",
+    "priority": "A",
+    "source": "20.png",
+    "rights": "Fornecido pelo usuário; autorização para distribuição não verificada."
+  },
+  "bg_runway": {
+    "path": "assets/bg_runway_v01.webp",
+    "category": "bg",
+    "version": 1,
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "fallback": "css",
+    "priority": "A",
+    "source": "ChatGPT Image 8_09_2026, 10_06_15 (1).png",
+    "rights": "Fornecido pelo usuário; autorização para distribuição não verificada."
+  },
+  "bg_cargo": {
+    "path": "assets/bg_cargo_v01.webp",
+    "category": "bg",
+    "version": 1,
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "fallback": "css",
+    "priority": "A",
+    "source": "ChatGPT Image 8_09_2026, 10_06_16 (2).png",
+    "rights": "Fornecido pelo usuário; autorização para distribuição não verificada."
+  },
+  "bg_maintenance": {
+    "path": "assets/bg_maintenance_v01.webp",
+    "category": "bg",
+    "version": 1,
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "fallback": "css",
+    "priority": "A",
+    "source": "ChatGPT Image 8_09_2026, 10_06_37 (4).png",
+    "rights": "Fornecido pelo usuário; autorização para distribuição não verificada."
+  },
+  "bg_checkin": {
+    "path": "assets/bg_checkin_v01.webp",
+    "category": "bg",
+    "version": 1,
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "fallback": "css",
+    "priority": "A",
+    "source": "ChatGPT Image 8_09_2026, 10_07_50 (2).png",
+    "rights": "Fornecido pelo usuário; autorização para distribuição não verificada."
+  },
+  "bg_security": {
+    "path": "assets/bg_security_v01.webp",
+    "category": "bg",
+    "version": 1,
+    "dimensions": [
+      1672,
+      941
+    ],
+    "fallback": "css",
+    "priority": "A",
+    "source": "ChatGPT Image 8_09_2026, 10_07_36 (8).png",
+    "rights": "Fornecido pelo usuário; autorização para distribuição não verificada."
+  }
+}
