@@ -1,105 +1,262 @@
 [
   {
     "id": "aurora",
-    "name": "Aurora Regional",
-    "profile": "Regional",
-    "level": 1,
-    "fleet": [
-      "atr"
-    ],
-    "color": "#4ac9cf",
-    "requirements": {
-      "reputation": 25
-    },
-    "pricingSensitivity": 1
-  },
-  {
-    "id": "brisa",
-    "name": "Brisa Linhas Aéreas",
-    "profile": "Baixo custo",
-    "level": 2,
-    "fleet": [
-      "ej",
-      "a220"
-    ],
-    "color": "#69bdf4",
-    "requirements": {
-      "reputation": 40
-    },
-    "pricingSensitivity": 1.5
-  },
-  {
-    "id": "vertice",
-    "name": "Vértice Air",
-    "profile": "Doméstica",
-    "level": 3,
-    "fleet": [
-      "a320",
-      "b737"
-    ],
-    "color": "#f2b94e",
-    "requirements": {
-      "reputation": 50
-    },
-    "pricingSensitivity": 1
-  },
-  {
-    "id": "atlantica",
-    "name": "Atlântica Airways",
-    "profile": "Internacional",
-    "level": 5,
-    "fleet": [
-      "a320",
-      "a330"
-    ],
-    "color": "#9eacf0",
-    "requirements": {
-      "reputation": 65
-    },
-    "pricingSensitivity": 0.8
-  },
-  {
-    "id": "meridian",
-    "name": "Meridian Global",
-    "profile": "Premium",
-    "level": 6,
-    "fleet": [
-      "b787",
-      "b777"
-    ],
-    "color": "#d7bb76",
-    "requirements": {
-      "reputation": 72
-    },
-    "pricingSensitivity": 0.6
-  },
-  {
-    "id": "cargo",
-    "name": "Horizonte Cargo",
-    "profile": "Carga",
-    "level": 5,
-    "fleet": [
-      "cargo"
-    ],
-    "color": "#8fca7c",
-    "requirements": {
-      "reputation": 60
-    },
-    "pricingSensitivity": 1
-  },
-  {
-    "id": "pampa",
-    "name": "Pampa Express",
+    "name": "Azul Linhas Aéreas",
     "profile": "Regional",
     "level": 1,
     "fleet": [
       "atr",
       "ej"
     ],
-    "color": "#f28c79",
+    "color": "#1479bd",
     "requirements": {
-      "reputation": 30
+      "reputation": 25
     },
-    "pricingSensitivity": 1.2
+    "pricingSensitivity": 1.0,
+    "logo": "assets/airlines/azul.svg",
+    "code": "AD",
+    "legacyFleet": [
+      "atr"
+    ]
+  },
+  {
+    "id": "brisa",
+    "name": "GOL Linhas Aéreas",
+    "profile": "Baixo custo",
+    "level": 3,
+    "fleet": [
+      "b737"
+    ],
+    "color": "#f47820",
+    "requirements": {
+      "reputation": 40
+    },
+    "pricingSensitivity": 1.5,
+    "logo": "assets/airlines/gol.svg",
+    "code": "G3",
+    "legacyFleet": [
+      "ej",
+      "a220"
+    ]
+  },
+  {
+    "id": "vertice",
+    "name": "LATAM Airlines",
+    "profile": "Doméstica",
+    "level": 3,
+    "fleet": [
+      "a320",
+      "b787"
+    ],
+    "color": "#2b1b69",
+    "requirements": {
+      "reputation": 50
+    },
+    "pricingSensitivity": 1.0,
+    "logo": "assets/airlines/latam.svg",
+    "code": "LA",
+    "legacyFleet": [
+      "a320",
+      "b737"
+    ]
+  },
+  {
+    "id": "atlantica",
+    "name": "American Airlines",
+    "profile": "Internacional",
+    "level": 5,
+    "fleet": [
+      "b737",
+      "b777"
+    ],
+    "color": "#0078d2",
+    "requirements": {
+      "reputation": 65
+    },
+    "pricingSensitivity": 0.8,
+    "logo": "assets/airlines/americanairlines.svg",
+    "code": "AA",
+    "legacyFleet": [
+      "a320",
+      "a330"
+    ]
+  },
+  {
+    "id": "meridian",
+    "name": "Emirates",
+    "profile": "Premium",
+    "level": 6,
+    "fleet": [
+      "b777"
+    ],
+    "color": "#dc1526",
+    "requirements": {
+      "reputation": 72
+    },
+    "pricingSensitivity": 0.6,
+    "logo": "assets/airlines/emirates.svg",
+    "code": "EK",
+    "legacyFleet": [
+      "b787",
+      "b777"
+    ]
+  },
+  {
+    "id": "cargo",
+    "name": "LATAM Cargo",
+    "profile": "Carga",
+    "level": 5,
+    "fleet": [
+      "cargo"
+    ],
+    "color": "#2b1b69",
+    "requirements": {
+      "reputation": 60
+    },
+    "pricingSensitivity": 1.0,
+    "logo": "assets/airlines/latam.svg",
+    "code": "M3",
+    "legacyFleet": [
+      "cargo"
+    ]
+  },
+  {
+    "id": "pampa",
+    "name": "Copa Airlines",
+    "profile": "Conexões",
+    "level": 3,
+    "fleet": [
+      "b737"
+    ],
+    "color": "#0055a4",
+    "requirements": {
+      "reputation": 45
+    },
+    "pricingSensitivity": 1.1,
+    "logo": "assets/airlines/copaairlines.svg",
+    "code": "CM",
+    "legacyFleet": [
+      "atr",
+      "ej"
+    ]
+  },
+  {
+    "id": "delta",
+    "name": "Delta Air Lines",
+    "profile": "Internacional",
+    "level": 5,
+    "fleet": [
+      "a320",
+      "b777"
+    ],
+    "color": "#c8102e",
+    "requirements": {
+      "reputation": 65
+    },
+    "pricingSensitivity": 0.9,
+    "logo": "assets/airlines/delta.svg",
+    "code": "DL"
+  },
+  {
+    "id": "united",
+    "name": "United Airlines",
+    "profile": "Internacional",
+    "level": 5,
+    "fleet": [
+      "b737",
+      "b787"
+    ],
+    "color": "#005daa",
+    "requirements": {
+      "reputation": 65
+    },
+    "pricingSensitivity": 0.9,
+    "logo": "assets/airlines/unitedairlines.svg",
+    "code": "UA"
+  },
+  {
+    "id": "lufthansa",
+    "name": "Lufthansa",
+    "profile": "Internacional",
+    "level": 6,
+    "fleet": [
+      "a320",
+      "a330"
+    ],
+    "color": "#ffbd00",
+    "requirements": {
+      "reputation": 70
+    },
+    "pricingSensitivity": 0.8,
+    "logo": "assets/airlines/lufthansa.svg",
+    "code": "LH"
+  },
+  {
+    "id": "airfrance",
+    "name": "Air France",
+    "profile": "Internacional",
+    "level": 6,
+    "fleet": [
+      "a320",
+      "b777"
+    ],
+    "color": "#123f92",
+    "requirements": {
+      "reputation": 70
+    },
+    "pricingSensitivity": 0.8,
+    "logo": "assets/airlines/airfrance.svg",
+    "code": "AF"
+  },
+  {
+    "id": "britishairways",
+    "name": "British Airways",
+    "profile": "Premium",
+    "level": 6,
+    "fleet": [
+      "a320",
+      "b787"
+    ],
+    "color": "#d71920",
+    "requirements": {
+      "reputation": 70
+    },
+    "pricingSensitivity": 0.8,
+    "logo": "assets/airlines/britishairways.svg",
+    "code": "BA"
+  },
+  {
+    "id": "qatar",
+    "name": "Qatar Airways",
+    "profile": "Premium",
+    "level": 7,
+    "fleet": [
+      "a330",
+      "b777"
+    ],
+    "color": "#5c0632",
+    "requirements": {
+      "reputation": 75
+    },
+    "pricingSensitivity": 0.7,
+    "logo": "assets/airlines/qatarairways.svg",
+    "code": "QR"
+  },
+  {
+    "id": "turkish",
+    "name": "Turkish Airlines",
+    "profile": "Internacional",
+    "level": 6,
+    "fleet": [
+      "a320",
+      "b787"
+    ],
+    "color": "#c8102e",
+    "requirements": {
+      "reputation": 70
+    },
+    "pricingSensitivity": 0.8,
+    "logo": "assets/airlines/turkishairlines.svg",
+    "code": "TK"
   }
 ]

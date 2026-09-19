@@ -1,0 +1,11 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {createState} from '../js/core/state.js';
+import {Engine} from '../js/systems/engine.js';
+import {suggestedRoute,nextDecision,taskProgress,renderExperience} from '../js/ui/experience.js';
+const d=Object.fromEntries(['airports','aircraft','airlines','buildings','balance','research','events','scenarios'].map(k=>[k,JSON.parse(readFileSync(new URL('../data/'+k+'.json',import.meta.url)))]));
+const setup=()=>new Engine(d,createState(d));
+test('sugestão é contratável em cada aeroporto brasileiro sem alterar a carreira',()=>{for(const a of d.airports.filter(a=>a.country==='Brasil')){const e=new Engine(d,createState(d,{airportId:a.id})),before=JSON.stringify(e.s),o=suggestedRoute(e);assert.ok(o,a.name);assert.equal(JSON.stringify(e.s),before);assert.equal(e.requirements(o.airlineId,o.aircraftId,o.destination).length,0);e.contract(o);assert.equal(e.s.contracts.length,1);}});
+test('decisão aponta primeiro voo, equipamentos e filas reais',()=>{const e=setup();assert.equal(nextDecision(e).action,'suggest-route');e.s.inventory.fuel.count=0;assert.equal(nextDecision(e).action,'view:operations');e.s.inventory.fuel.count=2;e.s.passengersSummary.wait=20;assert.equal(nextDecision(e).action,'view:passengers');});
+test('cartões refletem gates ocupados e percentual de serviços',()=>{const e=setup();e.s.world.weatherUntil=9999;e.contract(suggestedRoute(e));e.tick(40);const f=e.s.flights.find(f=>f.state==='TURNAROUND');assert.ok(f);assert.ok(taskProgress(e,f)>0);const html=renderExperience(e,{asset:x=>x,esc:x=>String(x??''),button:(text,action)=>`<button data-action="${action}">${text}</button>`,money:String});assert.ok(html.includes(f.code));assert.ok(html.includes('occupied'));assert.ok(html.includes('flight:'+f.id));});

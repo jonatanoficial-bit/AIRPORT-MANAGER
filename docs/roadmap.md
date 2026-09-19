@@ -1,6 +1,6 @@
 # Retomada do projeto
 
-Estado: build 0.1.0 jogável empacotada; cobertura integral da Bíblia-Mãe pendente. O motor tem testes de regressão e o projeto não depende de backend.
+Estado: build 0.3.0 jogável, com parte 3 de companhias reais e melhorias operacionais; cobertura integral da Bíblia-Mãe pendente. O motor tem testes de regressão e o projeto não depende de backend.
 
 1. Executar QA interativo/visual e corrigir navegação, formulários e experiência mobile.
 2. Balancear campanha até nível 10, condições de insolvência, ritmo de manutenção e demanda.

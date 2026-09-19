@@ -6,7 +6,7 @@ Cada catálogo é JSON UTF-8. IDs devem ser únicos e estáveis: saves referenci
 |---|---|
 | airports.json | id, name, country, uf, codes, demand, tourism, landCost, maxRunways, restrições e perfil |
 | aircraft.json | família, porte, assentos, pista mínima, nível, turnaround e carga |
-| airlines.json | companhia fictícia, frota por IDs, nível, reputação mínima e sensibilidade a preço |
+| airlines.json | companhia identificada por marca real, logo SVG local, frota simplificada por IDs, nível, reputação mínima e sensibilidade a preço; legacyFleet preserva saves antigos |
 | buildings.json | custo, duração em minutos, zona, nível, effect/amount, asset e footprint |
 | balance.json | caixa, custos, dificuldades, clima, serviços/dependências e requisitos de nível |
 | research.json | custo, nível e pré-requisitos |

@@ -18,7 +18,7 @@ export function validateSave(s,data){
  for(const key of ['total','today','wait','satisfaction','connections','missed'])number(s.passengersSummary[key]);
  number(s.maintenance.runway,0,100);number(s.maintenance.closedUntil);
  if(![0,1,2,4].includes(s.settings.speed)||!Array.isArray(s.resources.runways)||!s.airlines||!s.statistics.delayCauses)throw Error('Recursos inválidos.');
- for(const a of data.airlines)number(s.airlines[a.id]?.relationship,0,100);
+ for(const a of data.airlines){if(!s.airlines[a.id])s.airlines[a.id]={relationship:60,history:[],growth:false};number(s.airlines[a.id].relationship,0,100);}
  if(s.flights.length>2000||s.buildings.length>500||s.gates.length>500||s.construction.length>1000||s.contracts.length>300)throw Error('Quantidade de entidades acima do limite.');
  const unique=a=>new Set(a.map(x=>x.id)).size===a.length;
  if(![s.flights,s.gates,s.buildings,s.contracts,s.construction].every(unique))throw Error('IDs duplicados.');
@@ -26,7 +26,7 @@ export function validateSave(s,data){
  const assigned=new Set();for(const g of s.gates){if(g.flightId){if(assigned.has(g.flightId)||!s.flights.some(f=>f.id===g.flightId&&f.gateId===g.id))throw Error('Reserva de gate inconsistente.');assigned.add(g.flightId);}}
  for(const f of s.flights)if(!data.aircraft.some(p=>p.id===f.aircraftId)||!data.airlines.some(a=>a.id===f.airlineId)||!f.schedule||!f.tasks||!f.delays||!Number.isFinite(f.passengers))throw Error('Voo inválido.');
  for(const f of s.flights){if(!STATES[f.state]||!data.airports.some(a=>a.id===f.destination)||!s.contracts.some(c=>c.id===f.contractId))throw Error('Referência de voo inválida.');number(f.since);number(f.schedule.arrival);number(f.schedule.departure);number(f.tonnes);number(f.passengers);number(f.priority,0,1);if(f.state==='TURNAROUND')for(const t of data.balance.services)number(f.tasks[t.id]);}
- for(const c of s.contracts){if(!data.airlines.some(a=>a.id===c.airlineId&&a.fleet.includes(c.aircraftId))||!data.airports.some(a=>a.id===c.destination)||!['ACTIVE','CANCELLED','RENEWAL_PENDING','EXPIRED','ACCEPTED'].includes(c.status)||!Array.isArray(c.history))throw Error('Contrato inválido.');number(c.frequency,1,8);number(c.hour,0,23);number(c.discount,0,40);number(c.start);number(c.end);number(c.lastScheduled,-1);}
+ for(const c of s.contracts){if(!data.airlines.some(a=>a.id===c.airlineId&&(a.fleet.includes(c.aircraftId)||a.legacyFleet?.includes(c.aircraftId)))||!data.airports.some(a=>a.id===c.destination)||!['ACTIVE','CANCELLED','RENEWAL_PENDING','EXPIRED','ACCEPTED'].includes(c.status)||!Array.isArray(c.history))throw Error('Contrato inválido.');number(c.frequency,1,8);number(c.hour,0,23);number(c.discount,0,40);number(c.start);number(c.end);number(c.lastScheduled,-1);}
  for(const g of s.gates){number(g.class,1,4);number(g.x,0,28);number(g.y,0,20);}
  for(const b of s.buildings)number(b.condition,0,100);
  for(const c of s.construction){if(!['PLANNED','FUNDED','BUILDING','PAUSED','COMPLETED','ACTIVE','CANCELLED'].includes(c.state))throw Error('Estado de obra inválido.');number(c.duration,1);number(c.progress,0,c.duration);number(c.cost);}

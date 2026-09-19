@@ -222,7 +222,8 @@
     "footprint": [
       2,
       1
-    ]
+    ],
+    "benefit": "Reduz o desgaste horário de pista, frota de solo e edifícios em cerca de 18% por hangar."
   },
   {
     "id": "fire",
@@ -252,7 +253,8 @@
     "footprint": [
       2,
       1
-    ]
+    ],
+    "benefit": "Acelera o abastecimento dos voos em 20% por base, até 35%."
   },
   {
     "id": "catering",
@@ -267,7 +269,8 @@
     "footprint": [
       2,
       1
-    ]
+    ],
+    "benefit": "Acelera o catering dos voos em 20% por central, até 35%."
   },
   {
     "id": "cargo",
@@ -282,7 +285,8 @@
     "footprint": [
       2,
       1
-    ]
+    ],
+    "benefit": "Amplia a capacidade de carga movimentada por voo."
   },
   {
     "id": "warehouse",
@@ -297,7 +301,8 @@
     "footprint": [
       2,
       1
-    ]
+    ],
+    "benefit": "Acrescenta capacidade de carga à operação."
   },
   {
     "id": "admin",
@@ -312,7 +317,8 @@
     "footprint": [
       2,
       1
-    ]
+    ],
+    "benefit": "Reduz os custos de conservação de edifícios e veículos em 8% por sede, até 24%."
   },
   {
     "id": "control",
@@ -327,7 +333,8 @@
     "footprint": [
       2,
       1
-    ]
+    ],
+    "benefit": "Reduz o tempo de táxi e a separação entre operações de pista."
   },
   {
     "id": "runway",
@@ -357,7 +364,8 @@
     "footprint": [
       2,
       1
-    ]
+    ],
+    "benefit": "Reduz a separação entre operações de pista."
   },
   {
     "id": "solar",

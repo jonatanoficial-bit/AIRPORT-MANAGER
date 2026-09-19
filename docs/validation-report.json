@@ -1,21 +1,25 @@
 {
-  "build": "0.1.0",
-  "date": "2026-09-08",
-  "tests": 13,
-  "passed": 13,
+  "version": "0.3.0",
+  "date": "2026-09-18",
+  "automated_tests": 21,
+  "passed": 21,
   "failed": 0,
-  "checks": [
-    "30 dias simulados",
-    "save determinístico",
-    "gates/pistas exclusivos",
-    "receita única",
-    "obra/pausa",
-    "clima/equipamento",
-    "sintaxe JS",
-    "assets existentes",
-    "HTTP 200 e 404",
-    "build estático"
+  "build": "4b55b9de9ae7",
+  "remaining_qa": [
+    "Interface 0.3.0 em navegador: ferramentas de inspeção tiveram timeout",
+    "Todos os navegadores e dispositivos",
+    "Campanha até nível 10",
+    "Offline e atualização em hospedagem real"
   ],
-  "browser_visual_qa": "pendente",
-  "full_bible_coverage": false
+  "saveVersion": 1,
+  "browser_verified_previous_build": [
+    "Menu e criação de carreira",
+    "Pátio fotográfico carregado",
+    "Proposta inicial preenchida",
+    "Contrato gera dois voos",
+    "Avanço de tempo e serviço no gate",
+    "Salvamento com confirmação",
+    "Seleção Check-in no catálogo"
+  ],
+  "browser_verified_current_build": []
 }

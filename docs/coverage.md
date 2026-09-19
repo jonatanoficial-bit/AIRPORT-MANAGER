@@ -27,3 +27,13 @@ Esta entrega é uma base jogável; não é a implementação integral das 52 pá
 | Testes | Motor determinístico e invariantes automatizados; sem QA visual/interativo completo em navegadores ou dispositivos |
 
 Outras simplificações: escala única para plantas de aeroportos, uma taxiway lógica compartilhada, ocupação visual de filas aproximada, segmentos de passageiros percentuais, primeira frequência contratada chega em 15 minutos independentemente da hora escolhida (dias seguintes seguem a hora), sem integração de dados externos, multiplayer, editor de rotas físicas, demolição/relocalização ou integração com serviços reais. Constantes e textos ainda parcialmente no código. O evento de feriado aumenta a demanda programada em 20%, ainda sujeito a balanceamento.
+
+
+## Atualização da parte 2 — 0.2.0
+
+Interface agora inclui pátio fotográfico, cartões dinâmicos de gates e voos, fundos temáticos, catálogo ilustrado e botões redesenhados. Sugestão de rota compatível, próxima decisão contextual e avanço de dez minutos facilitam o início. Parte do QA interativo foi realizada, descrita em testing.md. As demais lacunas de simulação acima permanecem; esta parte não representa conclusão integral da Bíblia-Mãe.
+
+
+## Atualização da parte 3 — 0.3.0
+
+O catálogo de companhias usa nomes e logos reais, mas a negociação e frota são simplificações fictícias do jogo. Os IDs existentes continuam estáveis para carregar saves antigos. Hangar, combustível, catering, administração e controle agora têm efeitos medidos na operação; objetivos de carreira adicionais afetam demanda, carga, receita ou custo. Continua pendente a cadeia logística completa, plantas específicas por aeroporto, grafo físico/pathfinding, balanceamento da campanha até nível 10, sprites e áudio finais e QA mobile/multinavegador/Pages. Não se trata ainda da implementação integral da Bíblia-Mãe.
