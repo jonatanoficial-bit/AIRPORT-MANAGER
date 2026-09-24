@@ -1,4 +1,4 @@
-# Airport Empire Brasil — 0.3.0
+# Airport Empire Brasil — 0.4.0
 
 Build jogável de desenvolvimento, em português, de gestão aeroportuária. HTML, CSS e JavaScript modular; sem backend, conta ou dependências de execução. Inclui 24 imagens convertidas dos arquivos fornecidos pelo criador. **Ainda não corresponde à totalidade da Bíblia-Mãe nem à arte final AAA.** Veja [cobertura e limitações](docs/coverage.md).
 
@@ -52,3 +52,9 @@ Se uma versão antiga permanecer após atualização, feche todas as abas do jog
 O catálogo apresenta Azul, GOL, LATAM e outras companhias reais com logos locais que funcionam offline. São marcas de terceiros usadas para identificação visual em uma simulação independente; contratos, parâmetros e frota foram simplificados para o jogo e não representam acordos reais.
 
 Hangar reduz desgaste; base de combustível e central de catering aceleram as tarefas correspondentes; administração reduz conservação; centro operacional reduz ocupação da pista e tempo de táxi. A descrição de cada efeito aparece no painel de construção. Especializações passam a alterar demanda, carga, receita comercial ou custo. Saves da parte 2 continuam carregáveis.
+
+## Parte 4 — planejamento e logística
+
+A negociação mostra demanda, ocupação, receita bruta diária e pressão estimada sobre gates e serviços antes da assinatura. A carga recebida ocupa o terminal e os armazéns, passa pela triagem ao longo do tempo e só então gera receita; carga sem espaço é recusada e afeta a relação com a companhia.
+
+Na infraestrutura, o jogador pode ativar manutenção preventiva automática para pista e instalações. A automação respeita o caixa e mantém os reparos manuais disponíveis. Os nomes das aeronaves agora usam modelos reais, mantendo os mesmos IDs internos para preservar saves. Carreiras das partes anteriores continuam compatíveis com a versão 1 do formato.

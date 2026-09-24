@@ -14,17 +14,17 @@ Esta entrega é uma base jogável; não é a implementação integral das 52 pá
 | Rede física | Conexões operacionais presumidas pela zona; não há grafo construível, pathfinding ou validação de acessibilidade física |
 | Equipes | Oito categorias, contratação, treinamento, disponibilidade por turno, moral, fadiga e salários agregados |
 | Economia | Caixa, tarifas, receitas de voos/comércio/estacionamento, custos, multas, dívida e histórico diário |
-| Companhias | Sete fictícias; requisitos, incentivo, aceitação/contraproposta calculada, renovação, crescimento e abandono |
+| Companhias | 14 companhias reais com logos locais; requisitos, incentivo, previsão de rota, aceitação/contraproposta, renovação, crescimento e abandono; parâmetros são simplificados para o jogo |
 | Progressão | Níveis 1–10 com requisitos e conquistas; balanceamento de campanha inteira ainda precisa playtest |
 | Clima e eventos | Sete condições e cinco incidentes, efeitos de pista/rampa/equipe/bagagem; clima sorteado não usa perfil regional completo |
 | Pesquisa | Nove melhorias instantâneas mediante custo; sem fila temporal de laboratório |
-| Carga | Quantidade agregada e receita; sem cadeia logística/armazenamento detalhado |
+| Carga | Recebimento, limite de terminal/armazém, recusa, processamento por minuto e receita gradual; sem veículos individuais, alfândega dedicada ou estoque por categoria |
 | Especializações | Seleção registrada, turismo afeta demanda; demais objetivos ainda sem mecânicas exclusivas completas |
-| Edifícios | Capacidade, gates, comércio, conforto, energia e segurança afetam operação; hangar, administração, controle e bases de combustível/catering ainda não têm toda a função específica prevista |
+| Edifícios | Capacidade, gates, comércio, conforto, energia e segurança afetam operação; hangar, administração, controle e bases de combustível/catering possuem efeitos próprios; manutenção automática opcional usa condição e caixa |
 | Interface | Menu, carreira e 14 vistas de gestão; mapa vetorial tático, retratos/fotos fornecidos, layout responsivo |
 | Arte e áudio | 24 fotos WebP, ícone e vetores provisórios; sem sprites finais, malhas ou trilha; áudio limitado a aviso sintetizado |
 | Saves | IndexedDB, três slots, autosaves/backups, export/import validado; primeira versão, sem migração de formatos anteriores |
-| Testes | Motor determinístico e invariantes automatizados; sem QA visual/interativo completo em navegadores ou dispositivos |
+| Testes | 26 testes cobrem motor determinístico, invariantes, marcas, previsão, carga, manutenção e migração; sem QA visual/interativo completo em navegadores ou dispositivos |
 
 Outras simplificações: escala única para plantas de aeroportos, uma taxiway lógica compartilhada, ocupação visual de filas aproximada, segmentos de passageiros percentuais, primeira frequência contratada chega em 15 minutos independentemente da hora escolhida (dias seguintes seguem a hora), sem integração de dados externos, multiplayer, editor de rotas físicas, demolição/relocalização ou integração com serviços reais. Constantes e textos ainda parcialmente no código. O evento de feriado aumenta a demanda programada em 20%, ainda sujeito a balanceamento.
 
@@ -37,3 +37,7 @@ Interface agora inclui pátio fotográfico, cartões dinâmicos de gates e voos,
 ## Atualização da parte 3 — 0.3.0
 
 O catálogo de companhias usa nomes e logos reais, mas a negociação e frota são simplificações fictícias do jogo. Os IDs existentes continuam estáveis para carregar saves antigos. Hangar, combustível, catering, administração e controle agora têm efeitos medidos na operação; objetivos de carreira adicionais afetam demanda, carga, receita ou custo. Continua pendente a cadeia logística completa, plantas específicas por aeroporto, grafo físico/pathfinding, balanceamento da campanha até nível 10, sprites e áudio finais e QA mobile/multinavegador/Pages. Não se trata ainda da implementação integral da Bíblia-Mãe.
+
+## Atualização da parte 4 — 0.4.0
+
+A proposta de rota agora expõe projeções de demanda, receita e pressão de capacidade antes da decisão. A carga passou a ocupar espaço e ser processada gradualmente, com recusa quando a capacidade termina. A manutenção preventiva de pista e instalações pode ser automatizada e só compra reparos com caixa suficiente. Modelos de aeronaves recebem nomes reais, preservando os IDs do save. Ainda faltam plantas próprias por aeroporto, grafo físico/pathfinding, campanha integralmente balanceada, logística com agentes/veículos individuais, arte e áudio finais e QA completo em dispositivos.

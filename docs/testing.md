@@ -19,3 +19,7 @@ QA no navegador integrado: menu, criação de carreira, foto do pátio, proposta
 ## Parte 3 — 18/09/2026
 
 Testes adicionais cobrem os 14 SVGs locais, nomes únicos, código de voo da Azul, carregamento de saves da parte 2 com frota antiga, efeitos do hangar/administração e redução da ocupação da pista pelo centro operacional. Testes do motor continuam simulando 30 dias e validando o save. QA visual em navegador, mobile e Pages ainda deve ser repetido com a versão publicada.
+
+## Parte 4 — 24/09/2026
+
+26 testes automatizados aprovados. Os cinco novos casos validam nomes reais das aeronaves sem troca de IDs, previsão de rota sem mutação do estado, migração de saves da parte 3, recebimento/processamento/pagamento de carga e manutenção automática de pista e instalações. O build estático também valida sintaxe, imports, catálogos e manifest. A publicação no Pages é verificada após o push; a matriz completa de interação mobile e multinavegador continua pendente.

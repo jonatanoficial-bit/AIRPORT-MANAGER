@@ -1,7 +1,7 @@
 [
   {
     "id": "atr",
-    "name": "Turboélice R72",
+    "name": "ATR 72-600",
     "family": "atr",
     "size": 1,
     "seats": 72,
@@ -25,7 +25,7 @@
   },
   {
     "id": "ej",
-    "name": "Jato E190",
+    "name": "Embraer E190-E2",
     "family": "ej",
     "size": 1,
     "seats": 100,
@@ -49,7 +49,7 @@
   },
   {
     "id": "a220",
-    "name": "Jato C220",
+    "name": "Airbus A220-300",
     "family": "a220",
     "size": 2,
     "seats": 135,
@@ -73,7 +73,7 @@
   },
   {
     "id": "a320",
-    "name": "Jato N320",
+    "name": "Airbus A320neo",
     "family": "a320",
     "size": 2,
     "seats": 180,
@@ -97,7 +97,7 @@
   },
   {
     "id": "b737",
-    "name": "Jato N738",
+    "name": "Boeing 737 MAX 8",
     "family": "b737",
     "size": 2,
     "seats": 189,
@@ -121,7 +121,7 @@
   },
   {
     "id": "a330",
-    "name": "Wide-body W330",
+    "name": "Airbus A330-900neo",
     "family": "a330",
     "size": 3,
     "seats": 280,
@@ -145,7 +145,7 @@
   },
   {
     "id": "b787",
-    "name": "Wide-body W789",
+    "name": "Boeing 787-9",
     "family": "b787",
     "size": 3,
     "seats": 310,
@@ -169,7 +169,7 @@
   },
   {
     "id": "b777",
-    "name": "Wide-body W777",
+    "name": "Boeing 777-300ER",
     "family": "b777",
     "size": 4,
     "seats": 390,
@@ -193,7 +193,7 @@
   },
   {
     "id": "cargo",
-    "name": "Cargueiro F767",
+    "name": "Boeing 767-300F",
     "family": "cargo",
     "size": 3,
     "seats": 0,

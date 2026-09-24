@@ -3,7 +3,9 @@ import {STATES} from '../systems/engine.js';
 const MAX=8*1024*1024;
 export function validateSave(s,data){
  if(!s||typeof s!=='object'||s.saveVersion!==VERSION)throw Error('Versão de save incompatível. Esperado: '+VERSION);
- for(const key of ['meta','player','airport','world','economy','staff','inventory','reputation','statistics','settings','passengersSummary','maintenance','resources'])if(!s[key]||typeof s[key]!=='object'||Array.isArray(s[key]))throw Error('Save incompleto: '+key);
+ if(!s.cargoSummary)s.cargoSummary={stored:0,accepted:0,processed:0,rejected:0,today:0,revenue:0,pendingRevenue:0};
+ if(s.maintenance){s.maintenance.autoRunway=!!s.maintenance.autoRunway;s.maintenance.autoFacilities=!!s.maintenance.autoFacilities;}
+ for(const key of ['meta','player','airport','world','economy','staff','inventory','reputation','statistics','settings','passengersSummary','cargoSummary','maintenance','resources'])if(!s[key]||typeof s[key]!=='object'||Array.isArray(s[key]))throw Error('Save incompleto: '+key);
  for(const key of ['flights','gates','buildings','construction','contracts','research','events'])if(!Array.isArray(s[key]))throw Error('Lista inválida: '+key);
  if(!data.airports.some(a=>a.id===s.airport.id))throw Error('Aeroporto do save não instalado.');
  const walk=(v,depth=0)=>{if(depth>30)throw Error('Estrutura excede o limite.');if(typeof v==='number'&&!Number.isFinite(v))throw Error('Número inválido no save.');if(typeof v==='string'&&v.length>10000)throw Error('Texto excede o limite.');if(v&&typeof v==='object')for(const k of Object.keys(v)){if(['__proto__','prototype','constructor'].includes(k))throw Error('Propriedade não permitida.');walk(v[k],depth+1);}};walk(s);
@@ -16,6 +18,7 @@ export function validateSave(s,data){
  for(const key of ['global','passengers','airlines','punctuality','security','infrastructure','sustainability','reliability','public','maturity'])number(s.reputation[key],0,100);
  for(const key of ['checkin','security','baggage','immigration','customs'])number(s.passengersSummary.queues?.[key]);
  for(const key of ['total','today','wait','satisfaction','connections','missed'])number(s.passengersSummary[key]);
+ for(const key of ['stored','accepted','processed','rejected','today','revenue','pendingRevenue'])number(s.cargoSummary[key]);
  number(s.maintenance.runway,0,100);number(s.maintenance.closedUntil);
  if(![0,1,2,4].includes(s.settings.speed)||!Array.isArray(s.resources.runways)||!s.airlines||!s.statistics.delayCauses)throw Error('Recursos inválidos.');
  for(const a of data.airlines){if(!s.airlines[a.id])s.airlines[a.id]={relationship:60,history:[],growth:false};number(s.airlines[a.id].relationship,0,100);}
