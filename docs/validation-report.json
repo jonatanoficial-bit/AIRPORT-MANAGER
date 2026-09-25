@@ -1,12 +1,12 @@
 {
-  "version": "0.3.0",
-  "date": "2026-09-18",
-  "automated_tests": 21,
-  "passed": 21,
+  "version": "0.4.0",
+  "date": "2026-09-24",
+  "automated_tests": 27,
+  "passed": 27,
   "failed": 0,
-  "build": "4b55b9de9ae7",
+  "build": "595defb8995d",
   "remaining_qa": [
-    "Interface 0.3.0 em navegador: ferramentas de inspeção tiveram timeout",
+    "Interface 0.4.0 em matriz completa de navegadores",
     "Todos os navegadores e dispositivos",
     "Campanha até nível 10",
     "Offline e atualização em hospedagem real"
@@ -21,5 +21,9 @@
     "Salvamento com confirmação",
     "Seleção Check-in no catálogo"
   ],
-  "browser_verified_current_build": []
+  "browser_verified_current_build": [
+    "Sintaxe de todos os módulos",
+    "Servidor HTTP e catálogos",
+    "Fluxo de construção protegido por confirmação no motor"
+  ]
 }

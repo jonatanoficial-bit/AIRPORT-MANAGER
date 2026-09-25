@@ -22,4 +22,4 @@ Testes adicionais cobrem os 14 SVGs locais, nomes únicos, código de voo da Azu
 
 ## Parte 4 — 24/09/2026
 
-26 testes automatizados aprovados. Os cinco novos casos validam nomes reais das aeronaves sem troca de IDs, previsão de rota sem mutação do estado, migração de saves da parte 3, recebimento/processamento/pagamento de carga e manutenção automática de pista e instalações. O build estático também valida sintaxe, imports, catálogos e manifest. A publicação no Pages é verificada após o push; a matriz completa de interação mobile e multinavegador continua pendente.
+27 testes automatizados aprovados. Os seis novos casos validam nomes reais das aeronaves sem troca de IDs, previsão de rota sem mutação do estado, migração de saves da parte 3, recebimento/processamento/pagamento de carga, manutenção automática e busca de local válido sem cobrança antecipada na construção. O build estático também valida sintaxe, imports, catálogos e manifest. A publicação no Pages é verificada após o push; a matriz completa de interação mobile e multinavegador continua pendente.

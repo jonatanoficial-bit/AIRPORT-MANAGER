@@ -72,3 +72,14 @@ test('manutenção automática respeita limites e caixa disponível',()=>{
  assert.ok(e.s.maintenance.closedUntil>e.s.world.minute);
  assert.ok(e.s.economy.ledger.filter(row=>row.category==='Manutenção').length>=2);
 });
+
+test('assistente de construção encontra local válido sem cobrar antes da confirmação',()=>{
+ const e=engine(),cash=e.s.economy.cash;
+ const spot=e.findBuildSpot('gate');
+ assert.ok(spot);
+ assert.equal(e.buildReason('gate',spot.x,spot.y,spot.rotation),'');
+ assert.equal(e.s.economy.cash,cash);
+ e.build('gate',spot.x,spot.y,spot.rotation);
+ assert.ok(e.s.economy.cash<cash);
+ assert.equal(e.s.construction.length,1);
+});

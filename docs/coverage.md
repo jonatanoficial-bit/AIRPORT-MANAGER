@@ -24,7 +24,7 @@ Esta entrega é uma base jogável; não é a implementação integral das 52 pá
 | Interface | Menu, carreira e 14 vistas de gestão; mapa vetorial tático, retratos/fotos fornecidos, layout responsivo |
 | Arte e áudio | 24 fotos WebP, ícone e vetores provisórios; sem sprites finais, malhas ou trilha; áudio limitado a aviso sintetizado |
 | Saves | IndexedDB, três slots, autosaves/backups, export/import validado; primeira versão, sem migração de formatos anteriores |
-| Testes | 26 testes cobrem motor determinístico, invariantes, marcas, previsão, carga, manutenção e migração; sem QA visual/interativo completo em navegadores ou dispositivos |
+| Testes | 27 testes cobrem motor determinístico, invariantes, marcas, previsão, carga, manutenção, construção guiada e migração; sem QA visual/interativo completo em navegadores ou dispositivos |
 
 Outras simplificações: escala única para plantas de aeroportos, uma taxiway lógica compartilhada, ocupação visual de filas aproximada, segmentos de passageiros percentuais, primeira frequência contratada chega em 15 minutos independentemente da hora escolhida (dias seguintes seguem a hora), sem integração de dados externos, multiplayer, editor de rotas físicas, demolição/relocalização ou integração com serviços reais. Constantes e textos ainda parcialmente no código. O evento de feriado aumenta a demanda programada em 20%, ainda sujeito a balanceamento.
 
@@ -40,4 +40,4 @@ O catálogo de companhias usa nomes e logos reais, mas a negociação e frota s�
 
 ## Atualização da parte 4 — 0.4.0
 
-A proposta de rota agora expõe projeções de demanda, receita e pressão de capacidade antes da decisão. A carga passou a ocupar espaço e ser processada gradualmente, com recusa quando a capacidade termina. A manutenção preventiva de pista e instalações pode ser automatizada e só compra reparos com caixa suficiente. Modelos de aeronaves recebem nomes reais, preservando os IDs do save. Ainda faltam plantas próprias por aeroporto, grafo físico/pathfinding, campanha integralmente balanceada, logística com agentes/veículos individuais, arte e áudio finais e QA completo em dispositivos.
+A proposta de rota agora expõe projeções de demanda, receita e pressão de capacidade antes da decisão. A carga passou a ocupar espaço e ser processada gradualmente, com recusa quando a capacidade termina. A manutenção preventiva de pista e instalações pode ser automatizada e só compra reparos com caixa suficiente. A construção foi reorganizada em catálogo por categoria, posicionamento e confirmação de compra, com busca automática de espaço válido. Modelos de aeronaves recebem nomes reais, preservando os IDs do save. Ainda faltam plantas próprias por aeroporto, grafo físico/pathfinding, campanha integralmente balanceada, logística com agentes/veículos individuais, arte e áudio finais e QA completo em dispositivos.

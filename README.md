@@ -58,3 +58,5 @@ Hangar reduz desgaste; base de combustível e central de catering aceleram as ta
 A negociação mostra demanda, ocupação, receita bruta diária e pressão estimada sobre gates e serviços antes da assinatura. A carga recebida ocupa o terminal e os armazéns, passa pela triagem ao longo do tempo e só então gera receita; carga sem espaço é recusada e afeta a relação com a companhia.
 
 Na infraestrutura, o jogador pode ativar manutenção preventiva automática para pista e instalações. A automação respeita o caixa e mantém os reparos manuais disponíveis. Os nomes das aeronaves agora usam modelos reais, mantendo os mesmos IDs internos para preservar saves. Carreiras das partes anteriores continuam compatíveis com a versão 1 do formato.
+
+A loja de construção organiza estruturas em cinco categorias. Escolher uma opção não cobra nada: selecione a estrutura, clique no mapa ou use **Encontrar espaço livre**, confira investimento, caixa restante, prazo, zona e benefício, e só então confirme a compra. Posições inválidas aparecem em vermelho com uma explicação direta.

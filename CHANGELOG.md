@@ -2,7 +2,7 @@
 
 ## 0.4.0 — 2026-09-24
 
-Parte 4: previsão de demanda, ocupação, receita e pressão operacional antes de contratar rotas; cadeia de carga com armazenamento, capacidade, processamento, recusa e receita gradual; manutenção automática opcional para pista e instalações; nomes reais de nove modelos de aeronaves. A interface ganhou painéis visuais para logística, risco de rota e automação. Saves de versão 1 recebem os novos campos ao carregar. Cinco testes de regressão foram adicionados.
+Parte 4: previsão de demanda, ocupação, receita e pressão operacional antes de contratar rotas; cadeia de carga com armazenamento, capacidade, processamento, recusa e receita gradual; manutenção automática opcional para pista e instalações; nomes reais de nove modelos de aeronaves. A construção virou um fluxo guiado em três passos, com catálogo por categoria, sugestão de local livre e confirmação explícita antes da cobrança. Saves de versão 1 recebem os novos campos ao carregar. Seis testes de regressão foram adicionados.
 
 ## 0.3.0 — 2026-09-18
 
